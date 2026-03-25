@@ -1,0 +1,60 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global/global}
+  \entry{saxl_labor1}{manual}{}{}
+    \name{author}{1}{}{%
+      {{hash=SG}{%
+         family={Saxl},
+         familyi={S\bibinitperiod},
+         given={Georg},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Managementcenter Innsbruck}%
+    }
+    \strng{namehash}{SG1}
+    \strng{fullhash}{SG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Laboranleitung 1 - Gleichstromtechnik}
+    \field{year}{2025}
+  \endentry
+
+  \entry{saxl_labor2}{manual}{}{}
+    \name{author}{1}{}{%
+      {{hash=SG}{%
+         family={Saxl},
+         familyi={S\bibinitperiod},
+         given={Georg},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Managementcenter Innsbruck}%
+    }
+    \strng{namehash}{SG1}
+    \strng{fullhash}{SG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Laboranleitung 2 - Wechselstromtechnik}
+    \field{year}{2025}
+  \endentry
+\enddatalist
+\endinput

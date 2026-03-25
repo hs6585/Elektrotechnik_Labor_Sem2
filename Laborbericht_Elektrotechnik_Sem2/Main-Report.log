@@ -1,0 +1,2503 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.2)  22 FEB 2026 11:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Main-Report.tex
+(Main-Report.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(mcidoc.cls
+Document Class: mcidoc 13-02-2025 A documentclass for mci MECH Students
+\Cohort=\toks17
+\Module=\toks18
+\Lecture=\toks19
+\Lecturer=\toks20
+\Group=\toks21
+\Title=\toks22
+\TitleHeader=\toks23
+\Semester=\toks24
+\StudentName=\toks25
+\StudentID=\toks26
+\Department=\toks27
+\StudyProgram=\toks28
+\Supervisor=\toks29
+\PrimaryAssessor=\toks30
+\SecondaryAssessor=\toks31
+\Authors=\toks32
+\Affiliations=\toks33
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks34
+\pgfutil@tempdima=\dimen148
+\pgfutil@tempdimb=\dimen149
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box53
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks35
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks36
+\pgfkeys@temptoks=\toks37
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks38
+))
+\pgf@x=\dimen152
+\pgf@y=\dimen153
+\pgf@xa=\dimen154
+\pgf@ya=\dimen155
+\pgf@xb=\dimen156
+\pgf@yb=\dimen157
+\pgf@xc=\dimen158
+\pgf@yc=\dimen159
+\pgf@xd=\dimen160
+\pgf@yd=\dimen161
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count275
+\c@pgf@countb=\count276
+\c@pgf@countc=\count277
+\c@pgf@countd=\count278
+\t@pgf@toka=\toks39
+\t@pgf@tokb=\toks40
+\t@pgf@tokc=\toks41
+\pgf@sys@id@count=\count279
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count280
+\pgfsyssoftpath@bigbuffer@items=\count281
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen162
+\pgfmath@count=\count282
+\pgfmath@box=\box54
+\pgfmath@toks=\toks42
+\pgfmath@stack@operand=\toks43
+\pgfmath@stack@operation=\toks44
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count283
+))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen163
+\pgf@picmaxx=\dimen164
+\pgf@picminy=\dimen165
+\pgf@picmaxy=\dimen166
+\pgf@pathminx=\dimen167
+\pgf@pathmaxx=\dimen168
+\pgf@pathminy=\dimen169
+\pgf@pathmaxy=\dimen170
+\pgf@xx=\dimen171
+\pgf@xy=\dimen172
+\pgf@yx=\dimen173
+\pgf@yy=\dimen174
+\pgf@zx=\dimen175
+\pgf@zy=\dimen176
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen177
+\pgf@path@lasty=\dimen178
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen179
+\pgf@shorten@start@additional=\dimen180
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count284
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen181
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen182
+\pgf@pt@y=\dimen183
+\pgf@pt@temp=\dimen184
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen185
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen186
+\pgf@sys@shading@range@num=\count285
+\pgf@shadingcount=\count286
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box58
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box59
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen187
+\pgf@nodesepend=\dimen188
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen189
+\pgffor@skip=\dimen190
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
+))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count287
+\pgfplotmarksize=\dimen191
+)
+\tikz@lastx=\dimen192
+\tikz@lasty=\dimen193
+\tikz@lastxsaved=\dimen194
+\tikz@lastysaved=\dimen195
+\tikz@lastmovetox=\dimen196
+\tikz@lastmovetoy=\dimen197
+\tikzleveldistance=\dimen198
+\tikzsiblingdistance=\dimen199
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
+\tikztreelevel=\count288
+\tikznumberofchildren=\count289
+\tikznumberofcurrentchild=\count290
+\tikz@fig@count=\count291
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count292
+\pgfmatrixcurrentcolumn=\count293
+\pgf@matrix@numberofcolumns=\count294
+)
+\tikz@expandcount=\count295
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrreprt.cl
+s
+
++----------------------------------------------------------------------
+| WARNING (`scrreprt.cls'):
++----------------------------------------------------------------------
+| YOU SHOULD NOTE, THAT THIS IS NOT AN OFFICIAL RELEASE!
+| THIS VERSION IS INTENDED TO BE USED FOR TESTING ONLY!
+| USAGE FOR PURPOSES OTHER THAN INTENDED IS DANGEROUS!
+| DON'T EXPECT ANY SUPPORT FOR THIS VERSION!
++----------------------------------------------------------------------
+
+Document Class: scrreprt 2026/01/29 v3.49.1 KOMA-Script document class (report)
+
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.st
+y
+
++----------------------------------------------------------------------
+| WARNING (`scrkbase.sty'):
++----------------------------------------------------------------------
+| YOU SHOULD NOTE, THAT THIS IS NOT AN OFFICIAL RELEASE!
+| THIS VERSION IS INTENDED TO BE USED FOR TESTING ONLY!
+| USAGE FOR PURPOSES OTHER THAN INTENDED IS DANGEROUS!
+| DON'T EXPECT ANY SUPPORT FOR THIS VERSION!
++----------------------------------------------------------------------
+
+Package: scrkbase 2026/01/29 v3.49.1 KOMA-Script package (KOMA-Script-dependent
+ basics and keyval usage)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+
++----------------------------------------------------------------------
+| WARNING (`scrbase.sty'):
++----------------------------------------------------------------------
+| YOU SHOULD NOTE, THAT THIS IS NOT AN OFFICIAL RELEASE!
+| THIS VERSION IS INTENDED TO BE USED FOR TESTING ONLY!
+| USAGE FOR PURPOSES OTHER THAN INTENDED IS DANGEROUS!
+| DON'T EXPECT ANY SUPPORT FOR THIS VERSION!
++----------------------------------------------------------------------
+
+Package: scrbase 2026/01/29 v3.49.1 KOMA-Script package (KOMA-Script-independen
+t basics and keyval usage)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
+
++----------------------------------------------------------------------
+| WARNING (`scrlfile.sty'):
++----------------------------------------------------------------------
+| YOU SHOULD NOTE, THAT THIS IS NOT AN OFFICIAL RELEASE!
+| THIS VERSION IS INTENDED TO BE USED FOR TESTING ONLY!
+| USAGE FOR PURPOSES OTHER THAN INTENDED IS DANGEROUS!
+| DON'T EXPECT ANY SUPPORT FOR THIS VERSION!
++----------------------------------------------------------------------
+
+Package: scrlfile 2026/01/29 v3.49.1 KOMA-Script package (file load hooks)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
+
++----------------------------------------------------------------------
+| WARNING (`scrlfile-hook.sty'):
++----------------------------------------------------------------------
+| YOU SHOULD NOTE, THAT THIS IS NOT AN OFFICIAL RELEASE!
+| THIS VERSION IS INTENDED TO BE USED FOR TESTING ONLY!
+| USAGE FOR PURPOSES OTHER THAN INTENDED IS DANGEROUS!
+| DON'T EXPECT ANY SUPPORT FOR THIS VERSION!
++----------------------------------------------------------------------
+
+Package: scrlfile-hook 2026/01/29 v3.49.1 KOMA-Script package (using LaTeX hook
+s)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+
++----------------------------------------------------------------------
+| WARNING (`scrlogo.sty'):
++----------------------------------------------------------------------
+| YOU SHOULD NOTE, THAT THIS IS NOT AN OFFICIAL RELEASE!
+| THIS VERSION IS INTENDED TO BE USED FOR TESTING ONLY!
+| USAGE FOR PURPOSES OTHER THAN INTENDED IS DANGEROUS!
+| DON'T EXPECT ANY SUPPORT FOR THIS VERSION!
++----------------------------------------------------------------------
+
+Package: scrlogo 2026/01/29 v3.49.1 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 267.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 383.
+))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.st
+y
+
++----------------------------------------------------------------------
+| WARNING (`tocbasic.sty'):
++----------------------------------------------------------------------
+| YOU SHOULD NOTE, THAT THIS IS NOT AN OFFICIAL RELEASE!
+| THIS VERSION IS INTENDED TO BE USED FOR TESTING ONLY!
+| USAGE FOR PURPOSES OTHER THAN INTENDED IS DANGEROUS!
+| DON'T EXPECT ANY SUPPORT FOR THIS VERSION!
++----------------------------------------------------------------------
+
+Package: tocbasic 2026/01/29 v3.49.1 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip49
+\scr@dte@tocline@numbox=\box64
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 156.
+Class scrreprt Info: File `scrsize10pt.clo' used instead of
+(scrreprt)           file `scrsize10.clo' to setup font sizes on input line 272
+2.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize10pt
+.clo
+
++----------------------------------------------------------------------
+| WARNING (`scrsize10pt.clo'):
++----------------------------------------------------------------------
+| YOU SHOULD NOTE, THAT THIS IS NOT AN OFFICIAL RELEASE!
+| THIS VERSION IS INTENDED TO BE USED FOR TESTING ONLY!
+| USAGE FOR PURPOSES OTHER THAN INTENDED IS DANGEROUS!
+| DON'T EXPECT ANY SUPPORT FOR THIS VERSION!
++----------------------------------------------------------------------
+
+File: scrsize10pt.clo 2026/01/29 v3.49.1 KOMA-Script font size class option (10
+pt)
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.st
+y
+
++----------------------------------------------------------------------
+| WARNING (`typearea.sty'):
++----------------------------------------------------------------------
+| YOU SHOULD NOTE, THAT THIS IS NOT AN OFFICIAL RELEASE!
+| THIS VERSION IS INTENDED TO BE USED FOR TESTING ONLY!
+| USAGE FOR PURPOSES OTHER THAN INTENDED IS DANGEROUS!
+| DON'T EXPECT ANY SUPPORT FOR THIS VERSION!
++----------------------------------------------------------------------
+
+Package: typearea 2026/01/29 v3.49.1 KOMA-Script package (type area)
+\ta@bcor=\skip50
+\ta@div=\count296
+\ta@hblk=\skip51
+\ta@vblk=\skip52
+\ta@temp=\skip53
+\footheight=\skip54
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 8
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 373.44246pt
+(typearea)              DIV departure   = -4%
+(typearea)              \evensidemargin = 39.76274pt
+(typearea)              \oddsidemargin  = 39.76274pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 538.0pt
+(typearea)              \topmargin      = 0.36087pt
+(typearea)              \headheight     = 15.0pt
+(typearea)              \headsep        = 18.0pt
+(typearea)              \topskip        = 10.0pt
+(typearea)              \footskip       = 42.0pt
+(typearea)              \baselineskip   = 12.0pt
+(typearea)              on input line 1822.
+)
+\c@part=\count297
+\c@chapter=\count298
+\c@section=\count299
+\c@subsection=\count300
+\c@subsubsection=\count301
+\c@paragraph=\count302
+\c@subparagraph=\count303
+\scr@dte@chapter@maxnumwidth=\skip55
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\chapter on input line 5946.
+\scr@dte@section@maxnumwidth=\skip56
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\section on input line 5957.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\section on input line 5957.
+\scr@dte@part@maxnumwidth=\skip57
+Class scrreprt Info: using compatibility default `afterindent=true'
+(scrreprt)           for `\part on input line 5966.
+\scr@dte@subsection@maxnumwidth=\skip58
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsection on input line 5976.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsection on input line 5976.
+\scr@dte@subsubsection@maxnumwidth=\skip59
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsubsection on input line 5986.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsubsection on input line 5986.
+\scr@dte@paragraph@maxnumwidth=\skip60
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\paragraph on input line 5997.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\paragraph on input line 5997.
+\scr@dte@subparagraph@maxnumwidth=\skip61
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subparagraph on input line 6007.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subparagraph on input line 6007.
+\abovecaptionskip=\skip62
+\belowcaptionskip=\skip63
+\c@pti@nb@sid@b@x=\box65
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 7237.
+\scr@dte@figure@maxnumwidth=\skip64
+\c@figure=\count304
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 7250.
+\scr@dte@table@maxnumwidth=\skip65
+\c@table=\count305
+Class scrreprt Info: Redefining `\numberline' on input line 7421.
+\bibindent=\dimen256
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count306
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count307
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count308
+\c@listtotal=\count309
+\c@listcount=\count310
+\c@liststart=\count311
+\c@liststop=\count312
+\c@citecount=\count313
+\c@citetotal=\count314
+\c@multicitecount=\count315
+\c@multicitetotal=\count316
+\c@instcount=\count317
+\c@maxnames=\count318
+\c@minnames=\count319
+\c@maxitems=\count320
+\c@minitems=\count321
+\c@citecounter=\count322
+\c@maxcitecounter=\count323
+\c@savedcitecounter=\count324
+\c@uniquelist=\count325
+\c@uniquename=\count326
+\c@refsection=\count327
+\c@refsegment=\count328
+\c@maxextratitle=\count329
+\c@maxextratitleyear=\count330
+\c@maxextraname=\count331
+\c@maxextradate=\count332
+\c@maxextraalpha=\count333
+\c@abbrvpenalty=\count334
+\c@highnamepenalty=\count335
+\c@lownamepenalty=\count336
+\c@maxparens=\count337
+\c@parenlevel=\count338
+\blx@tempcnta=\count339
+\blx@tempcntb=\count340
+\blx@tempcntc=\count341
+\c@blx@maxsection=\count342
+\blx@maxsegment@0=\count343
+\blx@notetype=\count344
+\blx@parenlevel@text=\count345
+\blx@parenlevel@foot=\count346
+\blx@sectionciteorder@0=\count347
+\blx@sectionciteorderinternal@0=\count348
+\blx@entrysetcounter=\count349
+\blx@biblioinstance=\count350
+\labelnumberwidth=\skip66
+\labelalphawidth=\skip67
+\biblabelsep=\skip68
+\bibitemsep=\skip69
+\bibnamesep=\skip70
+\bibinitsep=\skip71
+\bibparsep=\skip72
+\bibhang=\skip73
+\blx@bcfin=\read3
+\blx@bcfout=\write4
+\blx@langwohyphens=\language79
+\c@mincomprange=\count351
+\c@maxcomprange=\count352
+\c@mincompwidth=\count353
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count354
+\c@savedafterword=\count355
+\c@annotator=\count356
+\c@savedannotator=\count357
+\c@author=\count358
+\c@savedauthor=\count359
+\c@bookauthor=\count360
+\c@savedbookauthor=\count361
+\c@commentator=\count362
+\c@savedcommentator=\count363
+\c@editor=\count364
+\c@savededitor=\count365
+\c@editora=\count366
+\c@savededitora=\count367
+\c@editorb=\count368
+\c@savededitorb=\count369
+\c@editorc=\count370
+\c@savededitorc=\count371
+\c@foreword=\count372
+\c@savedforeword=\count373
+\c@holder=\count374
+\c@savedholder=\count375
+\c@introduction=\count376
+\c@savedintroduction=\count377
+\c@namea=\count378
+\c@savednamea=\count379
+\c@nameb=\count380
+\c@savednameb=\count381
+\c@namec=\count382
+\c@savednamec=\count383
+\c@translator=\count384
+\c@savedtranslator=\count385
+\c@shortauthor=\count386
+\c@savedshortauthor=\count387
+\c@shorteditor=\count388
+\c@savedshorteditor=\count389
+\c@labelname=\count390
+\c@savedlabelname=\count391
+\c@institution=\count392
+\c@savedinstitution=\count393
+\c@lista=\count394
+\c@savedlista=\count395
+\c@listb=\count396
+\c@savedlistb=\count397
+\c@listc=\count398
+\c@savedlistc=\count399
+\c@listd=\count400
+\c@savedlistd=\count401
+\c@liste=\count402
+\c@savedliste=\count403
+\c@listf=\count404
+\c@savedlistf=\count405
+\c@location=\count406
+\c@savedlocation=\count407
+\c@organization=\count408
+\c@savedorganization=\count409
+\c@origlocation=\count410
+\c@savedoriglocation=\count411
+\c@origpublisher=\count412
+\c@savedorigpublisher=\count413
+\c@publisher=\count414
+\c@savedpublisher=\count415
+\c@language=\count416
+\c@savedlanguage=\count417
+\c@origlanguage=\count418
+\c@savedoriglanguage=\count419
+\c@pageref=\count420
+\c@savedpageref=\count421
+\shorthandwidth=\skip74
+\shortjournalwidth=\skip75
+\shortserieswidth=\skip76
+\shorttitlewidth=\skip77
+\shortauthorwidth=\skip78
+\shorteditorwidth=\skip79
+\locallabelnumberwidth=\skip80
+\locallabelalphawidth=\skip81
+\localshorthandwidth=\skip82
+\localshortjournalwidth=\skip83
+\localshortserieswidth=\skip84
+\localshorttitlewidth=\skip85
+\localshortauthorwidth=\skip86
+\localshorteditorwidth=\skip87
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-bibtex.def
+File: blx-bibtex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+
+Package biblatex Warning: Using fall-back bibtex backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count422
+\c@textcitetotal=\count423
+\c@textcitemaxnames=\count424
+\c@biburlbigbreakpenalty=\count425
+\c@biburlbreakpenalty=\count426
+\c@biburlnumpenalty=\count427
+\c@biburlucpenalty=\count428
+\c@biburllcpenalty=\count429
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count430
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-ieee\ieee.bbx
+File: ieee.bbx 2025-08-01 v1.4f biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-co
+mp.bbx
+File: numeric-comp.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bb
+x
+File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
+bx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count431
+\c@bbx:relatedtotal=\count432
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-ieee\ieee.cbx
+File: ieee.cbx 2025-08-01 v1.4f biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-verb'...
+Package biblatex Info: ... file 'numeric-verb.cbx' found.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-ve
+rb.cbx
+File: numeric-verb.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcites'.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count433
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2026-01-19 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
+.sty
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2026/01/26 v26.2 The multilingual framework for LuaLaTeX, pdfLaT
+eX and XeLaTeX
+\babel@savecnt=\count434
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2111.
+\U@D=\dimen257
+\l@unhyphenated=\language80
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read4
+\bbl@dirlevel=\count435
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4206.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/invalid\
+babel-ngerman.tex)
+Package babel Info: Importing font and identification data for ngerman
+(babel)             from babel-de.ini. Reported on input line 4330.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ld
+f
+Language: ngerman 
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\babel-germ
+an.def
+Package babel Info: Making " an active character on input line 459.
+)))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-sc
+rpage.sty
+
++----------------------------------------------------------------------
+| WARNING (`scrlayer-scrpage.sty'):
++----------------------------------------------------------------------
+| YOU SHOULD NOTE, THAT THIS IS NOT AN OFFICIAL RELEASE!
+| THIS VERSION IS INTENDED TO BE USED FOR TESTING ONLY!
+| USAGE FOR PURPOSES OTHER THAN INTENDED IS DANGEROUS!
+| DON'T EXPECT ANY SUPPORT FOR THIS VERSION!
++----------------------------------------------------------------------
+
+Package: scrlayer-scrpage 2026/01/29 v3.49.1 KOMA-Script package (end user inte
+rface for scrlayer)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer.st
+y
+
++----------------------------------------------------------------------
+| WARNING (`scrlayer.sty'):
++----------------------------------------------------------------------
+| YOU SHOULD NOTE, THAT THIS IS NOT AN OFFICIAL RELEASE!
+| THIS VERSION IS INTENDED TO BE USED FOR TESTING ONLY!
+| USAGE FOR PURPOSES OTHER THAN INTENDED IS DANGEROUS!
+| DON'T EXPECT ANY SUPPORT FOR THIS VERSION!
++----------------------------------------------------------------------
+
+Package: scrlayer 2026/01/29 v3.49.1 KOMA-Script package (defining layers and p
+age styles)
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 219
+2.
+)
+Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
+(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1119.
+) (C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/gudea\Gudea.sty
+Package: Gudea 2021/01/09 (Carl-Clemens Ebinger & autoinst) Style file for Gude
+a fonts.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks47
+\XKV@tempa@toks=\toks48
+)
+\XKV@depth=\count436
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+Package: fontaxes 2026-01-02 v2.0.2 Font selection axes (deprecated)
+Applying: [2024-11-01] Use figureversions if present on input line 74.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/figureversions\figureve
+rsions.sty
+Package: figureversions 2025-04-29 v1.0.1 Figure versions
+)
+Already applied: [0000-00-00] Fall back to v1 on input line 76.
+))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+Gudea-TLF on input l
+ine 116.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/gudea\t1gudea-tlf.fd
+File: T1Gudea-TLF.fd 2021/01/09 (autoinst) Font definitions for T1/Gudea-TLF.
+)
+LaTeX Font Info:    Font shape `T1/Gudea-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 116.
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count437
+\Gm@cntv=\count438
+\c@Gm@tempcnt=\count439
+\Gm@bindingoffset=\dimen258
+\Gm@wd@mp=\dimen259
+\Gm@odd@mp=\dimen260
+\Gm@even@mp=\dimen261
+\Gm@layoutwidth=\dimen262
+\Gm@layoutheight=\dimen263
+\Gm@layouthoffset=\dimen264
+\Gm@layoutvoffset=\dimen265
+\Gm@dimlist=\toks49
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count440
+\l__siunitx_number_exponent_fixed_int=\count441
+\l__siunitx_number_min_decimal_int=\count442
+\l__siunitx_number_min_integer_int=\count443
+\l__siunitx_number_round_precision_int=\count444
+\l__siunitx_number_lower_threshold_int=\count445
+\l__siunitx_number_upper_threshold_int=\count446
+\l__siunitx_number_group_first_int=\count447
+\l__siunitx_number_group_size_int=\count448
+\l__siunitx_number_group_minimum_int=\count449
+\l__siunitx_angle_tmp_dim=\dimen266
+\l__siunitx_angle_marker_box=\box66
+\l__siunitx_angle_unit_box=\box67
+\l__siunitx_compound_count_int=\count450
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks50
+\ex@=\dimen267
+))
+\l__siunitx_table_tmp_box=\box68
+\l__siunitx_table_tmp_dim=\dimen268
+\l__siunitx_table_column_width_dim=\dimen269
+\l__siunitx_table_integer_box=\box69
+\l__siunitx_table_decimal_box=\box70
+\l__siunitx_table_uncert_box=\box71
+\l__siunitx_table_before_box=\box72
+\l__siunitx_table_after_box=\box73
+\l__siunitx_table_before_dim=\dimen270
+\l__siunitx_table_carry_dim=\dimen271
+\l__siunitx_unit_tmp_int=\count451
+\l__siunitx_unit_position_int=\count452
+\l__siunitx_unit_total_int=\count453
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen272
+\ar@mcellbox=\box74
+\extrarowheight=\dimen273
+\NC@list=\toks51
+\extratabsurround=\skip88
+\backup@length=\skip89
+\ar@cellbox=\box75
+))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen274
+\TX@old@table=\dimen275
+\TX@old@col=\dimen276
+\TX@target=\dimen277
+\TX@delta=\dimen278
+\TX@cols=\count454
+\TX@ftn=\toks52
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen279
+\lightrulewidth=\dimen280
+\cmidrulewidth=\dimen281
+\belowrulesep=\dimen282
+\belowbottomsep=\dimen283
+\aboverulesep=\dimen284
+\abovetopsep=\dimen285
+\cmidrulesep=\dimen286
+\cmidrulekern=\dimen287
+\defaultaddspace=\dimen288
+\@cmidla=\count455
+\@cmidlb=\count456
+\@aboverulesep=\dimen289
+\@belowrulesep=\dimen290
+\@thisruleclass=\count457
+\@lastruleclass=\count458
+\@thisrulewidth=\dimen291
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip90
+\multirow@cntb=\count459
+\multirow@dima=\skip91
+\bigstrutjot=\dimen292
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip92
+\enit@outerparindent=\dimen293
+\enit@toks=\toks53
+\enit@inbox=\box76
+\enit@count@id=\count460
+\enitdp@description=\count461
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
+ision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.cod
+e.tex
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore
+.code.tex
+\t@pgfplots@toka=\toks54
+\t@pgfplots@tokb=\toks55
+\t@pgfplots@tokc=\toks56
+\pgfplots@tmpa=\dimen294
+\c@pgfplots@coordindex=\count462
+\c@pgfplots@scanlineindex=\count463
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplots
+sysgeneric.code.tex))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplot
+slibrary.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
+ib\pgfplotsoldpgfsupp_loader.code.tex
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks57
+\t@pgf@tokb=\toks58
+\t@pgf@tokc=\toks59
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
+ib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sutil.code.tex
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsliststructure.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsliststructureext.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count464
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsmatrix.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
+plotstableshared.code.tex
+\c@pgfplotstable@counta=\count465
+\t@pgfplotstable@a=\toks60
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
+e\pgfplotsdeque.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sbinary.code.tex
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sbinary.data.code.tex))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+sutil.verb.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibr
+arypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count466
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibra
+rypgfplots.surfshading.pgfsys-pdftex.def)))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+scolormap.code.tex
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+scolor.code.tex))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstac
+kedplots.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplot
+handlers.code.tex
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
+plothandler.code.tex
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
+plotimage.code.tex)))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.sca
+ling.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoor
+dprocessing.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.err
+orbars.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.mar
+kers.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotstick
+s.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.pat
+hs.code.tex)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+decorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen295
+\pgfdecoratedremainingdistance=\dimen296
+\pgfdecoratedinputsegmentcompleteddistance=\dimen297
+\pgfdecoratedinputsegmentremainingdistance=\dimen298
+\pgf@decorate@distancetomove=\dimen299
+\pgf@decorate@repeatstate=\count467
+\pgfdecorationsegmentamplitude=\dimen300
+\pgfdecorationsegmentlength=\dimen301
+)
+\tikz@lib@dec@box=\box77
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathreplacing.code.tex))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlib
+rarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count468
+\pgfplots@xmin@reg=\dimen302
+\pgfplots@xmax@reg=\dimen303
+\pgfplots@ymin@reg=\dimen304
+\pgfplots@ymax@reg=\dimen305
+\pgfplots@zmin@reg=\dimen306
+\pgfplots@zmax@reg=\dimen307
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+Package tocbasic Info: Loading of class-dependent code for package caption3
+(tocbasic)             prevented on line 50.
+
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen308
+\captionmargin=\dimen309
+\caption@leftmargin=\dimen310
+\caption@rightmargin=\dimen311
+\caption@width=\dimen312
+\caption@indent=\dimen313
+\caption@parindent=\dimen314
+\caption@hangindent=\dimen315
+)
+\c@caption@flags=\count469
+\c@continuedfloat=\count470
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip93
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen316
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count471
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count472
+\leftroot@=\count473
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count474
+\DOTSCASE@=\count475
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box78
+\strutbox@=\box79
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen317
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count476
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count477
+\dotsspace@=\muskip22
+\c@parentequation=\count478
+\dspbrk@lvl=\count479
+\tag@help=\toks61
+\row@=\count480
+\column@=\count481
+\maxfields@=\count482
+\andhelp@=\toks62
+\eqnshift@=\dimen318
+\alignsep@=\dimen319
+\tagshift@=\dimen320
+\tagwidth@=\dimen321
+\totwidth@=\dimen322
+\lineht@=\dimen323
+\@envbody=\toks63
+\multlinegap=\skip94
+\multlinetaggap=\skip95
+\mathdisplay@stack=\toks64
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.st
+y
+\lst@mode=\count483
+\lst@gtempboxa=\box80
+\lst@token=\toks65
+\lst@length=\count484
+\lst@currlwidth=\dimen324
+\lst@column=\count485
+\lst@pos=\count486
+\lst@lostspace=\dimen325
+\lst@width=\dimen326
+\lst@newlines=\count487
+\lst@lineno=\count488
+\lst@maxwidth=\dimen327
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count489
+\lst@skipnumbers=\count490
+\lst@framebox=\box81
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+) (C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count491
+\float@exts=\toks66
+\float@box=\box82
+\@float@everytoks=\toks67
+\@floatcapt=\box83
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/svg\svg.sty
+Package: svg 2020/11/26 v2.02k (include SVG pictures)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.s
+ty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+) (C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+\c@svg@param@lastpage=\count492
+\svg@box=\box84
+\c@svg@param@currpage=\count493
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
+.sty
+Package: transparent 2025-06-23 v1.6 Transparency with color stacks
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
+-nometadata.sty
+Package: transparent-nometadata 2025-06-23 v1.6 Transparency via pdfTeX's color
+ stack (HO)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)))
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count494
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen328
+\Hy@linkcounter=\count495
+\Hy@pagecounter=\count496
+ (C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count497
+ (C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4468.
+\c@Hy@tempcnt=\count498
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen329
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count499
+\Field@Width=\dimen330
+\Fld@charsize=\dimen331
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Hy@abspage=\count500
+\c@Item=\count501
+\c@Hfootnote=\count502
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
+\Fld@listcount=\count503
+\c@bookmark@seq@number=\count504
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip96
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count505
+\@quotereset=\count506
+Class scrreprt Info: loading recommended package `bookmark'.
+(scrreprt)           Using `bookmark' together with `hyperref' is recommended,
+(scrreprt)           because of handling of possible bookmark level gaps.
+(scrreprt)           You can avoid loading `bookmark' with KOMA-Script option
+(scrreprt)           `bookmarkpackage=false' before \begin{document} and
+(scrreprt)           you can avoid this message adding:
+(scrreprt)             \usepackage{bookmark}
+(scrreprt)           before \begin{document} on input line 60.
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
+)
+\BKM@id=\count507
+))
+
+LaTeX Warning: Unused global option(s):
+    [DIV,paper].
+
+(Main-Report.aux
+Package babel Info: 'ngerman' activates 'german' shorthands.
+(babel)             Reported on input line 15.
+ (chapter/introduction.aux) (chapter/Gleichstromtechnik.aux
+
+LaTeX Warning: Label `eq:strom' multiply defined.
+
+
+LaTeX Warning: Label `eq:strom' multiply defined.
+
+
+LaTeX Warning: Label `tab:spnnri' multiply defined.
+
+
+LaTeX Warning: Label `eq:Uges' multiply defined.
+
+
+LaTeX Warning: Label `eq:Uges' multiply defined.
+
+) (chapter/Wechselstromtechnik.aux
+
+LaTeX Warning: Label `eq:strom' multiply defined.
+
+
+LaTeX Warning: Label `eq:strom11' multiply defined.
+
+
+LaTeX Warning: Label `eq:strom12' multiply defined.
+
+
+LaTeX Warning: Label `eq:strom13' multiply defined.
+
+
+LaTeX Warning: Label `eq:strom15' multiply defined.
+
+
+LaTeX Warning: Label `eq:TauL' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW2' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW2' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW2' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW2' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW2' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW' multiply defined.
+
+
+LaTeX Warning: Label `eq:IgesW' multiply defined.
+
+))
+\openout1 = `Main-Report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count508
+\scratchdimen=\dimen332
+\scratchbox=\box85
+\nofMPsegments=\count509
+\nofMParguments=\count510
+\everyMPshowfont=\toks68
+\MPscratchCnt=\count511
+\MPscratchDim=\dimen333
+\MPnumerator=\count512
+\makeMPintoPDFobject=\count513
+\everyMPtoPDFconversion=\toks69
+)
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\ngerman.lb
+x
+File: ngerman.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+File: german.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+File: german.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout4 = `Main-Report-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Main-Report.bbl' found.
+ (Main-Report.bbl)
+Package biblatex Info: Reference section=0 on input line 60.
+Package biblatex Info: Reference segment=0 on input line 60.
+\c@mv@tabular=\count514
+\c@mv@boldtabular=\count515
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.6271pt, 418.25372pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.53027pt, 152.11002pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=418.25372pt
+* \textheight=591.53027pt
+* \oddsidemargin=17.35712pt
+* \evensidemargin=17.35712pt
+* \topmargin=-3.86334pt
+* \headheight=15.0pt
+* \headsep=18.0pt
+* \topskip=10.0pt
+* \footskip=42.0pt
+* \marginparwidth=74.68849pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-german.trsl
+File: translations-basic-dictionary-german.trsl (german translation file `trans
+lations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `german'. on input line 60.
+
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
+your preamble.
+ on input line 60.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count516
+Package tocbasic Info: setting babel extension for `lol' on input line 60.
+\scr@dte@lstlisting@maxnumwidth=\skip97
+Package hyperref Info: Link coloring OFF on input line 60.
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79141pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33041pt, 85.35826pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=426.79141pt
+* \textheight=674.33041pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-19.91173pt
+* \headheight=15.0pt
+* \headsep=18.0pt
+* \topskip=10.0pt
+* \footskip=42.0pt
+* \marginparwidth=74.68849pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<img/mci-logo-outline.pdf, id=6, 45.16875pt x 47.17625pt>
+File: img/mci-logo-outline.pdf Graphic file (type pdf)
+<use img/mci-logo-outline.pdf>
+Package pdftex.def Info: img/mci-logo-outline.pdf  used on input line 62.
+(pdftex.def)             Requested size: 316.18037pt x 330.23282pt.
+LaTeX Font Info:    Font shape `T1/Gudea-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+
+
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/Gudea-TLF/m/n' will be
+(Font)              scaled to size 24.88pt on input line 62.
+LaTeX Font Info:    Font shape `T1/Gudea-TLF/b/n' will be
+(Font)              scaled to size 24.88pt on input line 62.
+
+
+Package array Warning: Redefining primitive column b on input line 62.
+
+
+Underfull \hbox (badness 10000) in alignment at lines 62--62
+[][] 
+ []
+
+[1
+
+
+
+
+{C:/Users/hllst/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/hlls
+t/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/gudea/a_ys4752.enc} <./img/mci-
+logo-outline.pdf>] (Main-Report.toc [2
+
+
+
+
+] [3])
+\tf@toc=\write5
+\openout5 = `Main-Report.toc'.
+
+ [4] (Main-Report.lof
+Overfull \hbox (12.03516pt too wide) in paragraph at lines 13--13
+ [][] [][]\T1/Gudea-TLF/m/n/10 Schematischer Auf-bau be-las-te-ter Span-nungs-t
+ei-ler, Bild-quel-le: La-bo-r-an-lei-tung 1 - Gleich- 
+ []
+
+
+Overfull \hbox (3.2414pt too wide) in paragraph at lines 23--23
+ [][] [][]\T1/Gudea-TLF/m/n/10 Schematischer Auf-bau der RC Schal-tung, Bild-qu
+el-le: La-bo-r-an-lei-tung 2 - Wech-sel-strom- 
+ []
+
+[5
+
+]
+Overfull \hbox (3.2414pt too wide) in paragraph at lines 26--26
+ [][] [][]\T1/Gudea-TLF/m/n/10 Schematischer Auf-bau der RC Schal-tung, Bild-qu
+el-le: La-bo-r-an-lei-tung 2 - Wech-sel-strom- 
+ []
+
+
+Overfull \hbox (3.2414pt too wide) in paragraph at lines 28--28
+ [][] [][]\T1/Gudea-TLF/m/n/10 Schematischer Auf-bau der RC Schal-tung, Bild-qu
+el-le: La-bo-r-an-lei-tung 2 - Wech-sel-strom- 
+ []
+
+
+Overfull \hbox (3.2414pt too wide) in paragraph at lines 30--30
+ [][] [][]\T1/Gudea-TLF/m/n/10 Schematischer Auf-bau der RC Schal-tung, Bild-qu
+el-le: La-bo-r-an-lei-tung 2 - Wech-sel-strom- 
+ []
+
+
+Overfull \hbox (2.1314pt too wide) in paragraph at lines 32--32
+ [][] [][]\T1/Gudea-TLF/m/n/10 Schematischer Auf-bau der RL Schal-tung, Bild-qu
+el-le: La-bo-r-an-lei-tung 2 - Wech-sel-strom- 
+ []
+
+
+Overfull \hbox (2.1314pt too wide) in paragraph at lines 35--35
+ [][] [][]\T1/Gudea-TLF/m/n/10 Schematischer Auf-bau der RL Schal-tung, Bild-qu
+el-le: La-bo-r-an-lei-tung 2 - Wech-sel-strom- 
+ []
+
+
+Overfull \hbox (12.94482pt too wide) in paragraph at lines 36--36
+ [][] [][]\T1/Gudea-TLF/m/n/10 Zeitlicher Ver-lauf der Pha-sen-ver-schie-bung z
+wi-schen Spu-len-span-nung und Wi-der-standss- 
+ []
+
+)
+\tf@lof=\write6
+\openout6 = `Main-Report.lof'.
+
+ [6] (Main-Report.lot)
+\tf@lot=\write7
+\openout7 = `Main-Report.lot'.
+
+ [7
+
+]
+\openout2 = `chapter/introduction.aux'.
+
+ (chapter/introduction.tex
+chapter 1.
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.75 \include{chapter/introduction.tex}
+                                        [1
+
+
+
+]
+\openout2 = `chapter/Gleichstromtechnik.aux'.
+
+ (chapter/Gleichstromtechnik.tex
+chapter 2.
+<img/scemTabelle2_3.png, id=401, 437.13312pt x 271.51437pt>
+File: img/scemTabelle2_3.png Graphic file (type png)
+<use img/scemTabelle2_3.png>
+Package pdftex.def Info: img/scemTabelle2_3.png  used on input line 14.
+(pdftex.def)             Requested size: 292.77632pt x 181.85152pt.
+LaTeX Font Info:    Font shape `T1/Gudea-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 15.
+LaTeX Font Info:    Font shape `T1/Gudea-TLF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 15.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.18 
+      [2
+
+
+
+
+]
+<img/Tabelle2.pdf, id=410, 507.8975pt x 329.23pt>
+File: img/Tabelle2.pdf Graphic file (type pdf)
+<use img/Tabelle2.pdf>
+Package pdftex.def Info: img/Tabelle2.pdf  used on input line 34.
+(pdftex.def)             Requested size: 334.60425pt x 216.90564pt.
+Package babel Info: 'ngerman' activates 'german' shorthands.
+(babel)             Reported on input line 38.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.38 
+      [3 <./img/scemTabelle2_3.png>]
+<img/Tabelle2_v2.pdf, id=417, 507.8975pt x 329.23pt>
+File: img/Tabelle2_v2.pdf Graphic file (type pdf)
+<use img/Tabelle2_v2.pdf>
+Package pdftex.def Info: img/Tabelle2_v2.pdf  used on input line 41.
+(pdftex.def)             Requested size: 334.60425pt x 216.90564pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47 \newpage
+              [4 <./img/Tabelle2.pdf> <./img/Tabelle2_v2.pdf>]
+<img/Tabelle3.pdf, id=446, 512.91624pt x 327.2225pt>
+File: img/Tabelle3.pdf Graphic file (type pdf)
+<use img/Tabelle3.pdf>
+Package pdftex.def Info: img/Tabelle3.pdf  used on input line 71.
+(pdftex.def)             Requested size: 334.60425pt x 213.46602pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.75 
+      [5]
+<img/Tabelle3_v2.pdf, id=452, 511.9125pt x 325.215pt>
+File: img/Tabelle3_v2.pdf Graphic file (type pdf)
+<use img/Tabelle3_v2.pdf>
+Package pdftex.def Info: img/Tabelle3_v2.pdf  used on input line 78.
+(pdftex.def)             Requested size: 334.60425pt x 212.57324pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.84 \newpage
+              [6 <./img/Tabelle3.pdf> <./img/Tabelle3_v2.pdf>]
+<img/scemAbb7.png, id=480, 398.99063pt x 244.41313pt>
+File: img/scemAbb7.png Graphic file (type png)
+<use img/scemAbb7.png>
+Package pdftex.def Info: img/scemAbb7.png  used on input line 95.
+(pdftex.def)             Requested size: 334.60425pt x 204.98116pt.
+LaTeX Font Info:    Font shape `T1/Gudea-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 109.
+LaTeX Font Info:    Font shape `T1/Gudea-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 113.
+LaTeX Font Info:    Font shape `T1/Gudea-TLF/m/n' will be
+(Font)              scaled to size 5.0pt on input line 113.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.118 \end{table}
+                  [7 <./img/scemAbb7.png>] [8] [9]
+<img/scemTabelle6.png, id=512, 408.52625pt x 194.7275pt>
+File: img/scemTabelle6.png Graphic file (type png)
+<use img/scemTabelle6.png>
+Package pdftex.def Info: img/scemTabelle6.png  used on input line 191.
+(pdftex.def)             Requested size: 334.60425pt x 159.49928pt.
+<img/Tabelle6.pdf, id=516, 502.87875pt x 329.23pt>
+File: img/Tabelle6.pdf Graphic file (type pdf)
+<use img/Tabelle6.pdf>
+Package pdftex.def Info: img/Tabelle6.pdf  used on input line 207.
+(pdftex.def)             Requested size: 334.60425pt x 219.06078pt.
+ [10 <./img/scemTabelle6.png>]
+<img/Tabelle6_v2.pdf, id=523, 502.87875pt x 329.23pt>
+File: img/Tabelle6_v2.pdf Graphic file (type pdf)
+<use img/Tabelle6_v2.pdf>
+Package pdftex.def Info: img/Tabelle6_v2.pdf  used on input line 214.
+(pdftex.def)             Requested size: 334.60425pt x 219.06078pt.
+ [11 <./img/Tabelle6.pdf> <./img/Tabelle6_v2.pdf>]
+<img/scemTabelle7.png, id=551, 586.19pt x 270.00874pt>
+File: img/scemTabelle7.png Graphic file (type png)
+<use img/scemTabelle7.png>
+Package pdftex.def Info: img/scemTabelle7.png  used on input line 231.
+(pdftex.def)             Requested size: 334.60425pt x 154.1208pt.
+ [12 <./img/scemTabelle7.png>]
+<img/Tabelle7.pdf, id=561, 496.85625pt x 329.23pt>
+File: img/Tabelle7.pdf Graphic file (type pdf)
+<use img/Tabelle7.pdf>
+Package pdftex.def Info: img/Tabelle7.pdf  used on input line 253.
+(pdftex.def)             Requested size: 334.60425pt x 221.71829pt.
+<img/Tabelle7v2.pdf, id=562, 504.88625pt x 329.23pt>
+File: img/Tabelle7v2.pdf Graphic file (type pdf)
+<use img/Tabelle7v2.pdf>
+Package pdftex.def Info: img/Tabelle7v2.pdf  used on input line 260.
+(pdftex.def)             Requested size: 334.60425pt x 218.1917pt.
+ [13 <./img/Tabelle7.pdf>] [14 <./img/Tabelle7v2.pdf>]
+<img/scemSpannrMess.png, id=596, 385.94188pt x 220.32312pt>
+File: img/scemSpannrMess.png Graphic file (type png)
+<use img/scemSpannrMess.png>
+Package pdftex.def Info: img/scemSpannrMess.png  used on input line 276.
+(pdftex.def)             Requested size: 334.60425pt x 191.01727pt.
+ [15 <./img/scemSpannrMess.png>] [16]
+Overfull \hbox (0.58365pt too wide) in paragraph at lines 308--309
+\T1/Gudea-TLF/m/n/10 Die strom-rich-ti-ge Mes-sung dient der prä-zi-sen Be-stim
+-mung von Wi-der-stän-den, in-dem das Am-pereme-
+ []
+
+<img/scemStromrMess.png, id=612, 376.40625pt x 209.28188pt>
+File: img/scemStromrMess.png Graphic file (type png)
+<use img/scemStromrMess.png>
+Package pdftex.def Info: img/scemStromrMess.png  used on input line 314.
+(pdftex.def)             Requested size: 334.60425pt x 186.05269pt.
+[17 <./img/scemStromrMess.png>] [18]
+<img/scemAbb21.png, id=626, 394.47375pt x 273.02pt>
+File: img/scemAbb21.png Graphic file (type png)
+<use img/scemAbb21.png>
+Package pdftex.def Info: img/scemAbb21.png  used on input line 352.
+(pdftex.def)             Requested size: 334.60425pt x 231.58484pt.
+<img/Tabelle 10.pdf, id=630, 507.8975pt x 327.2225pt>
+File: img/Tabelle 10.pdf Graphic file (type pdf)
+<use img/Tabelle 10.pdf>
+Package pdftex.def Info: img/Tabelle 10.pdf  used on input line 364.
+(pdftex.def)             Requested size: 334.60425pt x 215.58305pt.
+ [19 <./img/scemAbb21.png>] [20 <./img/Tabelle 10.pdf>]
+<img/scemAbb24.png, id=652, 260.975pt x 203.25937pt>
+File: img/scemAbb24.png Graphic file (type png)
+<use img/scemAbb24.png>
+Package pdftex.def Info: img/scemAbb24.png  used on input line 380.
+(pdftex.def)             Requested size: 250.95477pt x 195.45862pt.
+ [21 <./img/scemAbb24.png>]
+Overfull \hbox (14.18665pt too wide) in paragraph at lines 402--403
+\T1/Gudea-TLF/m/n/10 men-span-nung $\OML/cmm/m/it/10 U[]$\T1/Gudea-TLF/m/n/10 ,
+ die Span-nungs-ab-fäl-le an den In-nen-wi-der-stän-den so-wie die auf-tre-ten-
+den Ausgleichs-
+ []
+
+<img/scemAbb26.png, id=663, 429.10312pt x 319.69438pt>
+File: img/scemAbb26.png Graphic file (type png)
+<use img/scemAbb26.png>
+Package pdftex.def Info: img/scemAbb26.png  used on input line 408.
+(pdftex.def)             Requested size: 250.95477pt x 186.96922pt.
+[22 <./img/scemAbb26.png>]) [23]
+\openout2 = `chapter/Wechselstromtechnik.aux'.
+
+ (chapter/Wechselstromtechnik.tex
+chapter 3.
+LaTeX Font Info:    Trying to load font information for TS1+Gudea-TLF on input 
+line 10.
+(C:\Users\hllst\AppData\Local\Programs\MiKTeX\tex/latex/gudea\ts1gudea-tlf.fd
+File: TS1Gudea-TLF.fd 2021/01/09 (autoinst) Font definitions for TS1/Gudea-TLF.
+
+)
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 10.
+LaTeX Font Info:    Font shape `T1/Gudea-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 10.
+<img/scemAbb3221.png, id=683, 316.18124pt x 206.7725pt>
+File: img/scemAbb3221.png Graphic file (type png)
+<use img/scemAbb3221.png>
+Package pdftex.def Info: img/scemAbb3221.png  used on input line 13.
+(pdftex.def)             Requested size: 250.95477pt x 164.11832pt.
+
+[24
+
+
+
+
+ <./img/scemAbb3221.png>]
+<img/Abb_3222.pdf, id=695, 499.8675pt x 327.2225pt>
+File: img/Abb_3222.pdf Graphic file (type pdf)
+<use img/Abb_3222.pdf>
+Package pdftex.def Info: img/Abb_3222.pdf  used on input line 26.
+(pdftex.def)             Requested size: 334.60425pt x 219.0432pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+
+ []
+
+<img/Abb_3223.pdf, id=696, 499.8675pt x 327.2225pt>
+File: img/Abb_3223.pdf Graphic file (type pdf)
+<use img/Abb_3223.pdf>
+Package pdftex.def Info: img/Abb_3223.pdf  used on input line 33.
+(pdftex.def)             Requested size: 334.60425pt x 219.0432pt.
+[25 <./img/Abb_3222.pdf>] [26 <./img/Abb_3223.pdf>]
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 52.
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 56.
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 60.
+ [27]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 66.
+
+
+Overfull \hbox (1.5857pt too wide) in paragraph at lines 69--70
+\T1/Gudea-TLF/m/n/10 Ziel die-ses Ver-suchs ist die Ana-ly-se des fre-quenz-ab-
+hän-gi-gen Über-tra-gungs-ver-hal-tens ei-nes RC-Glieds
+ []
+
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 72.
+<img/scemAbb3321.png, id=739, 391.4625pt x 245.91875pt>
+File: img/scemAbb3321.png Graphic file (type png)
+<use img/scemAbb3321.png>
+Package pdftex.def Info: img/scemAbb3321.png  used on input line 75.
+(pdftex.def)             Requested size: 292.77632pt x 183.93202pt.
+
+Package scrlayer-scrpage Warning: \headheight to low.
+(scrlayer-scrpage)                At least 30.0pt needed,
+(scrlayer-scrpage)                but only 15.0pt found.
+(scrlayer-scrpage)                I'll enlarge \headheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., setting geometry's option
+(scrlayer-scrpage)                `head=30.0pt'.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 7
+9.
+
+
+Overfull \vbox (15.0pt too high) has occurred while \output is active []
+
+ [28 <./img/scemAbb3321.png>]
+<img/Abb_3322.pdf, id=749, 503.8825pt x 327.2225pt>
+File: img/Abb_3322.pdf Graphic file (type pdf)
+<use img/Abb_3322.pdf>
+Package pdftex.def Info: img/Abb_3322.pdf  used on input line 89.
+(pdftex.def)             Requested size: 334.60425pt x 217.29065pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--92
+
+ []
+
+[29 <./img/Abb_3322.pdf>]
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 107.
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 107.
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 107.
+<img/scemAbb3421.png, id=767, 467.24562pt x 305.64188pt>
+File: img/scemAbb3421.png Graphic file (type png)
+<use img/scemAbb3421.png>
+Package pdftex.def Info: img/scemAbb3421.png  used on input line 111.
+(pdftex.def)             Requested size: 292.77632pt x 191.5247pt.
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 120.
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 120.
+<img/Abb_3422.pdf, id=770, 497.86pt x 329.23pt>
+File: img/Abb_3422.pdf Graphic file (type pdf)
+<use img/Abb_3422.pdf>
+Package pdftex.def Info: img/Abb_3422.pdf  used on input line 124.
+(pdftex.def)             Requested size: 334.60425pt x 221.27621pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--127
+
+ []
+
+[30 <./img/scemAbb3421.png>]
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 128.
+ [31 <./img/Abb_3422.pdf>]
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 141.
+<img/scemAbb3721.png, id=794, 385.44pt x 251.43938pt>
+File: img/scemAbb3721.png Graphic file (type png)
+<use img/scemAbb3721.png>
+Package pdftex.def Info: img/scemAbb3721.png  used on input line 145.
+(pdftex.def)             Requested size: 292.77632pt x 190.98848pt.
+<img/Abb_3722.pdf, id=798, 503.8825pt x 319.1925pt>
+File: img/Abb_3722.pdf Graphic file (type pdf)
+<use img/Abb_3722.pdf>
+Package pdftex.def Info: img/Abb_3722.pdf  used on input line 158.
+(pdftex.def)             Requested size: 334.60425pt x 211.95837pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--161
+
+ []
+
+[32 <./img/scemAbb3721.png>] [33 <./img/Abb_3722.pdf>]
+<img/scemAbb4221.png, id=820, 434.12187pt x 277.53688pt>
+File: img/scemAbb4221.png Graphic file (type png)
+<use img/scemAbb4221.png>
+Package pdftex.def Info: img/scemAbb4221.png  used on input line 174.
+(pdftex.def)             Requested size: 292.77632pt x 187.18532pt.
+ [34 <./img/scemAbb4221.png>]
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 183.
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 187.
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--189
+
+ []
+
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 190.
+[35]
+<img/Abb_4222.pdf, id=838, 493.845pt x 319.1925pt>
+File: img/Abb_4222.pdf Graphic file (type pdf)
+<use img/Abb_4222.pdf>
+Package pdftex.def Info: img/Abb_4222.pdf  used on input line 214.
+(pdftex.def)             Requested size: 334.60425pt x 216.26387pt.
+<img/Abb_4223.pdf, id=839, 493.845pt x 319.1925pt>
+File: img/Abb_4223.pdf Graphic file (type pdf)
+<use img/Abb_4223.pdf>
+Package pdftex.def Info: img/Abb_4223.pdf  used on input line 221.
+(pdftex.def)             Requested size: 334.60425pt x 216.26387pt.
+ [36 <./img/Abb_4222.pdf> <./img/Abb_4223.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 228.
+
+<img/scemAbb4321.png, id=868, 343.78438pt x 203.76125pt>
+File: img/scemAbb4321.png Graphic file (type png)
+<use img/scemAbb4321.png>
+Package pdftex.def Info: img/scemAbb4321.png  used on input line 237.
+(pdftex.def)             Requested size: 292.77632pt x 173.52744pt.
+[37 <./img/scemAbb4321.png>]
+<img/Abb_4322.pdf, id=877, 502.87875pt x 319.1925pt>
+File: img/Abb_4322.pdf Graphic file (type pdf)
+<use img/Abb_4322.pdf>
+Package pdftex.def Info: img/Abb_4322.pdf  used on input line 250.
+(pdftex.def)             Requested size: 334.60425pt x 212.3821pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+
+ []
+
+[38 <./img/Abb_4322.pdf>]
+<img/scemAbb5521.png, id=895, 426.09187pt x 328.72812pt>
+File: img/scemAbb5521.png Graphic file (type png)
+<use img/scemAbb5521.png>
+Package pdftex.def Info: img/scemAbb5521.png  used on input line 276.
+(pdftex.def)             Requested size: 292.77632pt x 225.88966pt.
+ [39 <./img/scemAbb5521.png>]
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 287.
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 288.
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 289.
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--290
+
+ []
+
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 291.
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+[40]
+<img/Abb_5522.pdf, id=917, 494.84875pt x 324.21124pt>
+File: img/Abb_5522.pdf Graphic file (type pdf)
+<use img/Abb_5522.pdf>
+Package pdftex.def Info: img/Abb_5522.pdf  used on input line 328.
+(pdftex.def)             Requested size: 334.60425pt x 219.22395pt.
+ [41 <./img/Abb_5522.pdf>]
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 341.
+<img/scemAbb5221.png, id=934, 356.83313pt x 248.93pt>
+File: img/scemAbb5221.png Graphic file (type png)
+<use img/scemAbb5221.png>
+Package pdftex.def Info: img/scemAbb5221.png  used on input line 345.
+(pdftex.def)             Requested size: 292.77632pt x 204.25305pt.
+ [42 <./img/scemAbb5221.png>]
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 355.
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--358
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
+
+ []
+
+[43]
+<img/Abb_552.pdf, id=954, 488.82625pt x 325.215pt>
+File: img/Abb_552.pdf Graphic file (type pdf)
+<use img/Abb_552.pdf>
+Package pdftex.def Info: img/Abb_552.pdf  used on input line 391.
+(pdftex.def)             Requested size: 334.60425pt x 222.6171pt.
+ [44 <./img/Abb_552.pdf>]
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 405.
+<img/scemAbb51021.png, id=978, 420.57124pt x 289.58188pt>
+File: img/scemAbb51021.png Graphic file (type png)
+<use img/scemAbb51021.png>
+Package pdftex.def Info: img/scemAbb51021.png  used on input line 409.
+(pdftex.def)             Requested size: 292.77632pt x 201.59242pt.
+ [45 <./img/scemAbb51021.png>]
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 419.
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 420.
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 421.
+LaTeX Info: Symbol \textmu not provided by
+            font family Gudea-TLF in TS1 encoding.
+            Default family used instead on input line 422.
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--423
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+
+ []
+
+[46]
+<img/Abb_5102.pdf, id=998, 494.84875pt x 325.215pt>
+File: img/Abb_5102.pdf Graphic file (type pdf)
+<use img/Abb_5102.pdf>
+Package pdftex.def Info: img/Abb_5102.pdf  used on input line 466.
+(pdftex.def)             Requested size: 334.60425pt x 219.90268pt.
+ [47 <./img/Abb_5102.pdf>])
+LaTeX Font Info:    Font shape `T1/Gudea-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 92.
+ [48
+
+
+
+] (Main-Report.aux (chapter/introduction.aux) (chapter/Gleichstromtechnik.aux) 
+(chapter/Wechselstromtechnik.aux))
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                Main-Report
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'Main-Report.run.xml'.
+\openout1 = `Main-Report.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 53607 strings out of 467866
+ 1260530 string characters out of 5418326
+ 2238124 words of memory out of 5000000
+ 81466 multiletter control sequences out of 15000+600000
+ 653228 words of font info for 115 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 122i,20n,132p,11217b,2838s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\hllst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1000.pk> <C:\Users\hllst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecsx1200.pk> <C:\Users\hllst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecsx1440.pk> <C:\Users\hllst\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecsx1000.pk> <C:\Users\hllst\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecsx2074.pk><C:/Users/hllst/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/gudea/Gudea-Bold.pfb><C:/Users/hllst/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/gudea/Gudea-Italic.pfb><C:/Users/hllst/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/gudea/Gudea.pfb><C:/Users/hllst/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/hllst/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/h
+llst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:
+/Users/hllst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6
+.pfb><C:/Users/hllst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb><C:/Users/hllst/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb><C:/Users/hllst/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmi9.pfb><C:/Users/hllst/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/hllst/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/hllst/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/hllst/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/hllst/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/hlls
+t/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
+sers/hllst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.p
+fb><C:/Users/hllst/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy6.pfb><C:/Users/hllst/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy7.pfb><C:/Users/hllst/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb><C:/Users/hllst/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/hllst/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Main-Report.pdf (55 pages, 1629182 bytes).
+PDF statistics:
+ 1621 PDF objects out of 1728 (max. 8388607)
+ 256 named destinations out of 1000 (max. 500000)
+ 1008 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,474 @@
+
+\chapter{Gleichstromtechnik}
+
+\section{Ohmsches Gesetz Versuch 1}
+
+\subsection{Einleitung und Aufgabenstellung}
+Im ersten Versuch werden die Zusammenhänge zwischen Strom und Spannung bei konstanten Widerstand abhängig von der Spannung im Gleichstromkreis wiedergegeben.
+
+\subsection{Versuchsaufbau und Materialien}
+\label{subsection_scemTabelle2_3}
+Als Energiequelle dient ein regelbares Netzgerät, welches eine variable Gleichspannung zur Verfügung stellt. Wie in Abbildung ~\ref{fig:scemTabelle2_3} werden zur Erfassung der Messwerte zwei digitale Multimeter eingesetzt, wobei ein Gerät als Amperemeter und das andere als Voltmeter konfiguriert wird. Als Last dient ein \SI{100}{\ohm} und ein \SI{330}{\ohm} Widerstand. Zuerst wird der gewählte Widerstand mit dem Amperemeter in Reihe geschaltet. Das Voltmeter wird parallel zum Widerstand angeschlossen. Die gesamte Schaltung wird mit der Gleichspannungsquelle verbunden. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{img/scemTabelle2_3.png}
+	\caption{Schematischer Aufbau des Stromkreises mit einem ohmschen Verbraucher, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \cite{saxl_labor1}}
+	\label{fig:scemTabelle2_3}
+\end{figure}
+
+\subsection{Versuchsdurchführung und Methoden}
+Die Eingangsspannung wird eingestellt. Folglich werden die Messungen für beide Lasten Schritt für Schritt von \SI{0}{\volt} bis \SI{12}{\volt} in zweierschritten durchgeführt. 
+
+\subsection{Ergebnis und Interpretation}
+Strom und Spannung sind proportional zueinander. In Abbildung ~\ref{fig:Tabelle2} sieht man die beiden nahezu linearen Kennlinien des Stroms. Bei doppelter Spannung verdoppelt sich auch der Strom. Je steiler die Kurve desto kleiner ist der Widerstand. Das belegt genau die Theorie vom Ohmschen Gesetz.
+\begin{equation}  \label{eq:strom}
+	I = \frac{U}{R},
+\end{equation}
+Die Stromkennlinien bei konstanten Widerstand sind abhängig von der Spannung.
+\begin{equation}  \label{eq:strom2}
+	I = f(U),
+\end{equation}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Tabelle2.pdf}
+	\caption{Stromkennlinien der Labormesswerte vom Voltmeter und Amperemeter bei \SI{100}{\ohm} und \SI{330}{\ohm}}
+	\label{fig:Tabelle2}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Tabelle2_v2.pdf}
+	\caption{Stromkennlinien der berechneten Werte bei \SI{100}{\ohm} und \SI{330}{\ohm}}
+	\label{fig:Tabelle2_v2}
+\end{figure}
+
+%---------------------------------------------------------------------
+\newpage
+\section{Ohmsches Gesetz Versuch 2}
+\subsection{Einleitung und Aufgabenstellung}
+Im zweiten Versuch werden die Zusammenhänge zwischen Strom und Spannung bei konstanter Spannung abhängig vom Widerstand im Gleichstromkreis wiedergegeben.
+
+\subsection{Versuchsaufbau und Materialien}
+Der Versuchsaufbau ist wie bei \ref{subsection_scemTabelle2_3} durchzuführen. Für den Lastwiderstand werden für diesen Versuch folgende Widerstände verwendet: \SI{100}{\ohm}, \SI{220}{\ohm}, \SI{330}{\ohm}, \SI{470}{\ohm}, \SI{680}{\ohm} und \SI{1000}{\ohm}.
+
+\subsection{Versuchsdurchführung und Methoden}
+Die Eingangsspannung wird eingestellt. Folglich werden die Messungen für die Lasten Schritt für Schritt mit jeweils konstanter Spannung mit \SI{12}{\volt}, \SI{8}{\volt} und \SI{4}{\volt} durchgeführt. 
+
+\subsection{Ergebnis und Interpretation}
+Die Abbildung ~\ref{fig:Tabelle3} zeigt einen hyperbolischen Zusammenhang zwischen dem Widerstand und der Stromstärke bei verschiedenen konstanten Spannungen. Das Messergebnis bestätigt das Ohmsche Gesetz, da die Stromstärke mit zunehmendem Widerstand degressiv abnimmt. Höhere Spannungen führen dabei zu einer vertikalen Verschiebung der Kurven nach oben, wobei das Verhältnis der Stromwerte exakt proportional zur angelegten Spannung bleibt.
+\begin{equation}  \label{eq:strom}
+	I = \frac{U}{R},
+\end{equation}
+
+Die Stromkennlinien bei konstanter Spannung sind abhängig vom Widerstand.
+\begin{equation}  \label{eq:strom3}
+	I = f(R),
+\end{equation}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Tabelle3.pdf}
+	\caption{Stromkennlinien der Labormesswerte vom Voltmeter und Amperemeter bei \SI{0}{\ohm} bis \SI{1000}{\ohm}}
+	\label{fig:Tabelle3}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Tabelle3_v2.pdf}
+	\caption{Stromkennlinien der berechneten Werte bei \SI{0}{\ohm} bis \SI{1000}{\ohm}}
+	\label{fig:Tabelle3_v2}
+\end{figure}
+
+%---------------------------------------------------------------------
+\newpage
+\section{Mischen von Reihen- und Parallelschaltungen}
+
+\subsection{Einleitung und Aufgabenstellung}
+Im Versuch wird eine Reihen- und Parallelschaltung aufgebaut, dabei werden bei den Messpunkten die Ströme und die Teilspannungen der Widerstände in der Schaltung gemessen.
+
+\subsection{Versuchsaufbau und Materialien}
+\label{subsection_scemAbb7}
+Als Energiequelle dient ein regelbares Netzgerät, welches eine variable Gleichspannung zur Verfügung stellt. Wie in Abbildung~\ref{fig:scemAbb7} wird zur Erfassung der Messwerte ein digitales Multimeter eingesetzt. In der Schaltung ist der Widerstand $R1 =$ \SI{20}{\ohm} und der Widerstand $R2 =$ \SI{100}{\ohm} in Reihe mit der Parallelschaltung aus dem Widerstand $R3 =$ \SI{330}{\ohm} und dem Widerstand $R4 = $ \SI{680}{\ohm} geschaltet. Die gesamte Schaltung wird mit der Gleichspannungsquelle verbunden. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/scemAbb7.png}
+	\caption{Schematischer Aufbau der Reihen- und Parallelschaltung, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \cite{saxl_labor1}}
+	\label{fig:scemAbb7}
+\end{figure}
+
+\subsection{Versuchsdurchführung und Methoden}
+Die Eingangsspannung wird auf \SI{10}{\volt} eingestellt. Folglich werden die Strommessungen bei den Messpunkten A-B, C-D und E-F durchgeführt. Dabei ist darauf zu achten, dass das Multimeter als Amperemeter und der Messbereich auf \SI{}{\milli\ampere} eingestellt wird. Zudem werden die Teilspannungen aller Widerstände mittels Multimeter, das als Volmeter konfiguriert ist bemessen. Dabei wird jeweils ein Messeingang vor und nach dem Widerstand eingesteckt.
+
+\subsection{Ergebnis und Interpretation}
+Die Messwerte der Ströme sind in der Tabelle \ref{tab:strom} dargestellt. Die Messwerte der Teilspannungen sind in der Tabelle\ref{tab:spann} dargestellt. Die Werte der Tabellen sind die Messwerte aus dem Labor.
+\begin{table}[H]
+	\centering
+	\caption{Teilströme und Gesamtströme [\SI{}{\milli\ampere}]}
+	\label{tab:strom}
+	\footnotesize 
+	\begin{tabular}{lll}
+		\hline
+		\multicolumn{3}{c}{Messpunkte}\\
+A-B ($I_{\text{ges}}$) & C-D ($I_1$) & E-F ($I_2$)\\
+		\hline
+		29,28 & 19,79 & 9,55\\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\caption{Teilspannungen [\SI{}{\volt}]}
+	\label{tab:spann}
+	\footnotesize 
+	\begin{tabular}{llll}
+		\hline
+		$U_{\text{R1}}$ & $U_{\text{R2}}$ & $U_{\text{R3}}$ & $U_{\text{R4}}$\\
+		\hline
+		0,64 & 2,93 & 6,50 & 6,50\\
+		\hline
+	\end{tabular}
+\end{table}
+\noindent In den folgenden Berechnungen sieht man, dass die Rechnungen mit idealen Werten fast genau den Messwerten im Labor entsprechen. Der Spannungsabfall in der Parallelschaltung ist bei beiden Widerständen gleich. In der Reihenschaltung ist gut erkennbar, dass der Strom bei beiden Widerständen gleich ist.
+
+\begin{equation}  \label{eq:R1}
+	R_{12} = R_1 + R_2 = \SI{122}{\ohm},
+\end{equation}
+
+\begin{equation}  \label{eq:R2}
+	R_{34} = \frac{R_3 \cdot R_4}{R_3 + R_4} = \SI{222.18}{\ohm}
+\end{equation}
+
+\begin{equation}  \label{eq:R3}
+	R_{ges} = R_{12} + R_{23} = \SI{344.18}{\ohm}
+\end{equation}
+
+\begin{equation}  \label{eq:U23}
+	U_{34} = U - R_{12} * I{ges} = \SI{6.46}{\volt}
+\end{equation}
+
+\begin{equation}  \label{eq:Iges}
+	I_{ges} = \frac{U}{R_{ges}} = \SI{29.05}{\milli\ampere}
+\end{equation}
+
+\begin{equation}  \label{eq:I1}
+	I_{1} = \frac{U_{34}}{R_{3}} = \SI{19.58}{\milli\ampere}
+\end{equation}
+
+\begin{equation}  \label{eq:I2}
+	I_{2} = \frac{U_{34}}{R_{4}} = \SI{9.5}{\milli\ampere}
+\end{equation}
+
+\begin{equation}  \label{eq:U1}
+	U_{R1} = R_{1} \cdot I_{ges} = \SI{0.64}{\volt}
+\end{equation}
+
+\begin{equation}  \label{eq:U2}
+	U_{R2} = R_{2} \cdot I_{ges} = \SI{2.91}{\volt}
+\end{equation}
+
+\begin{equation}  \label{eq:U3}
+	U_{R3} = R_{3} \cdot I_{1} = \SI{6.46}{\volt}
+\end{equation}
+
+\begin{equation}  \label{eq:U4}
+	U_{R4} = R_{4} \cdot I_{2} = \SI{6.46}{\volt}
+\end{equation}
+
+
+%---------------------------------------------------------------------
+\newpage
+\section{Unbelasteter Spannungsteiler}
+
+\subsection{Einleitung und Aufgabenstellung}
+Im Versuch wird eine Schaltung mit einem variabel einstellbaren \SI{1}{\kilo\ohm} Potentiometer realisiert. Die Kennlinie des Spannungsteilers wird mit den Messwerten ermittelt.
+
+\subsection{Versuchsaufbau und Materialien}
+Als Energiequelle dient ein regelbares Netzgerät, welches eine variable Gleichspannung zur Verfügung stellt. Wie in Abbildung ~\ref{fig:scemTabelle6} wird zur Erfassung der Messwerte ein digitales Multimeter eingesetzt, wobei das Gerät als Voltmeter konfiguriert wird. Das Potentiometer wird mit dem Kontakt E zum Pluspol und dem Kontakt A zum Minuspol mit der Gleichspannungsquelle verbunden. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/scemTabelle6.png}
+	\caption{Schematischer Aufbau unbelasteter Spannungsteiler, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \cite{saxl_labor1}}
+	\label{fig:scemTabelle6}
+\end{figure}
+
+\subsection{Versuchsdurchführung und Methoden}
+Eine Gleichspannung von \SI{10}{\volt} wird angelegt. Folglich werden die Potentiometerstellungen ($\alpha$) von $0-10$ in Einzerschritten abgearbeitet, dabei wird die Spannung $U_2$ zwischen den Messpunkten S und A notiert.
+
+\subsection{Ergebnis und Interpretation}
+Die Kennlinie eines idealen unbelasteten Spannungsteilers ist linear. In Abbildung ~\ref{fig:Tabelle6} sieht man sehr gut, dass die Kennlinie des Spannungsteilers im unbelasteten Zustand nahezu linear ansteigt.\\ 
+Berechnung unbelasteter Spannungsteiler:
+\begin{equation}  \label{eq:strom}
+	U_2 = U \cdot\frac{R_2}{R_1 + R_2} = U\cdot\frac{\alpha}{10},
+\end{equation}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Tabelle6.pdf}
+	\caption{Kennlinie vom unbelasteten Spannungsteiler mit den Messwerten}
+	\label{fig:Tabelle6}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Tabelle6_v2.pdf}
+	\caption{Kennlinie vom unbelasteten Spannungsteiler mit den errechneten Werten}
+	\label{fig:Tabelle6_v2}
+\end{figure}
+
+
+%---------------------------------------------------------------------
+\newpage
+\section{Belasteter Spannungsteiler}
+
+\subsection{Einleitung und Aufgabenstellung}
+Im Versuch wird eine Schaltung mit einem variabel einstellbaren \SI{1}{\kilo\ohm} Potentiometer realisiert. Es werden verschiedene Lasten beim Spannungsteiler angelegt und beobachtet wie sich der Spannungsteiler unter verschiedenen Belastungen verhält.
+
+\subsection{Versuchsaufbau und Materialien}
+Als Energiequelle dient ein regelbares Netzgerät, welches eine variable Gleichspannung zur Verfügung stellt. Wie in Abbildung~\ref{fig:scemTabelle7} wird zur Erfassung der Messwerte ein digitales Multimeter eingesetzt, wobei das Gerät als Voltmeter konfiguriert wird. Das Potentiometer wird mit dem Kontakt E zum Pluspol und mit dem Kontakt A zum Minuspol mit der Gleichspannungsquelle verbunden. Zwischen dem Schleifer Kontakt und dem Kontakt A werden die Lastwiderstände $R_3$ = \SI{100}{\ohm}, $R_3$ = \SI{470}{\ohm} und $R_3$ = \SI{1000}{\ohm} angeschlossen.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/scemTabelle7.png}
+	\caption{Schematischer Aufbau belasteter Spannungsteiler, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \cite{saxl_labor1}}
+	\label{fig:scemTabelle7}
+\end{figure}
+\newpage
+\subsection{Versuchsdurchführung und Methoden}
+Eine Gleichspannung von \SI{5}{\volt} wird angelegt. Folglich werden die Potentiometerstellungen ($\alpha$) von 0-10 in Einzerschritten abgearbeitet, dabei wird die Spannung $U_3$ notiert.
+
+\subsection{Ergebnis und Interpretation}
+Die Kennlinie des belasteten Spannungsteilers weicht bei zunehmender Belastung von der idealen Linearität ab. Wie in Abbildung~\ref{fig:Tabelle7} ersichtlich, führt die Belastung zu einem charakteristischen Spannungseinbruch. Das bedeutet, dass die Proportionalität zwischen der Potentiometerstellung ($\alpha$) und der Ausgangsspannung $U_3$ nicht mehr gegeben ist. Mit sinkendem Lastwiderstand (höhere Last) verringert sich die Spannung $U_3$ bei identischer Stellung $\alpha$ aufgrund des zusätzlichen Laststroms deutlich.\\
+Berechnung belasteter Spannungsteiler:
+
+\begin{equation}  \label{eq:strom5}
+	R_{23} = \frac{R_2\cdot R_3}{R_2 + R_3},
+\end{equation}
+
+\begin{equation}  \label{eq:strom6}
+	\frac{U}{U_3} = \frac{R_1 + R_{23}}{R_{23}},
+\end{equation}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Tabelle7.pdf}
+	\caption{Kennlinie vom belasteten Spannungsteiler mit den Messwerten}
+	\label{fig:Tabelle7}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Tabelle7v2.pdf}
+	\caption{Kennlinie vom belasteten Spannungsteiler mit den berechneten Werten}
+	\label{fig:Tabelle7v2}
+\end{figure}
+
+%---------------------------------------------------------------------
+\newpage
+\section{Spannungsrichtige Messung}
+
+\subsection{Einleitung und Aufgabenstellung}
+Die spannungsrichtige Messung dient der präzisen Bestimmung von Widerständen, indem das Voltmeter direkt parallel zum Messobjekt geschaltet wird. Da das Amperemeter hierbei den Stromfluss durch das Voltmeter miterfasst, entsteht eine systematische Messabweichung, die als Schaltungsfehler bezeichnet wird. Diese Anordnung wird primär für hochohmige Widerstände genutzt, um den Einfluss des Messgeräteeigenverbrauchs zu minimieren.
+
+\subsection{Versuchsaufbau und Materialien}
+Als Energiequelle dient ein regelbares Netzgerät, welches eine variable Gleichspannung zur Verfügung stellt. Wie in Abbildung ~\ref{fig:scemSpannrMess} werden zur Erfassung der Messwerte zwei digitale Multimeter eingesetzt, wobei ein Gerät als Amperemeter und das andere als Voltmeter konfiguriert wird. Als Last dient ein \SI{10}{\ohm} und ein \SI{1}{\mega\ohm} Widerstand. Das Amperemeter wird in Reihe geschaltet und das Voltmeter wird parallel zum Lastwiderstand angeschlossen. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/scemSpannrMess.png}
+	\caption{Schematischer Aufbau der spannungsrichtigen Messung, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \cite{saxl_labor1}}
+	\label{fig:scemSpannrMess}
+\end{figure}
+
+\subsection{Versuchsdurchführung und Methoden}
+Die genauen Werte der beiden Lastwiderstände werden mit dem Multimeter bemessen bevor sie in die Schaltung eingebaut werden. Folglich wird bei der Spannungsquelle eine Eingangsspannung von \SI{5}{\volt} eingestellt. Der Strom und die Spannung können von den Multimetern abgelesen und anschließend notiert werden.
+
+\subsection{Ergebnis und Interpretation}
+
+\begin{table}[H]
+	\centering
+	\caption{Ergebnis der spannungsrichtigen Messung}
+	\label{tab:spnnri}
+	\footnotesize 
+	\begin{tabular}{llll}
+		\hline
+	    R[\SI{}{\ohm}] gemessen & I[\SI{}{\milli\ampere}] & U[\SI{}{\volt}] & R[\SI{}{\ohm}] errechnet\\
+		\hline
+		9,7 & 497 & 4,92 & 9,9\\
+		$1.001\cdot10^6$ & $5,4\cdot10^{-3}$ & 5,04 & $0,933\cdot10^6$\\
+		\hline
+	\end{tabular}
+\end{table}
+
+Die Messergebnisse bestätigen, dass die spannungsrichtige Messung bei hochohmigen Widerständen zu einer deutlichen systematischen Messabweichung führt, da der Eigenverbrauch des Voltmeters den Gesamtwiderstand der Parallelschaltung messbar verringert. Im Gegensatz dazu ist der Einfluss bei niederohmigen Widerständen vernachlässigbar gering, da der Laststrom wesentlich größer ist als der durch das Voltmeter fließende Strom. Für hochohmige Messobjekte sollte daher zur Fehlervermeidung vorzugsweise die stromrichtige Messung eingesetzt werden.
+
+%---------------------------------------------------------------------
+\newpage
+\section{Stromrichtige Messung}
+
+\subsection{Einleitung und Aufgabenstellung}
+Die stromrichtige Messung dient der präzisen Bestimmung von Widerständen, indem das Amperemeter unmittelbar in Reihe zum Messobjekt geschaltet wird. Da das Voltmeter in dieser Anordnung zusätzlich zum Spannungsabfall am Widerstand die über dem Amperemeter abfallende Spannung miterfasst, entsteht eine systematische Messabweichung. Diese Schaltung wird primär für niederohmige Widerstände genutzt, da der geringe Spannungsabfall am Amperemeter hier im Verhältnis zur Lastspannung die kleinste Abweichung vom wahren Wert verursacht.
+
+\subsection{Versuchsaufbau und Materialien}
+Als Energiequelle dient ein regelbares Netzgerät, welches eine variable Gleichspannung zur Verfügung stellt. Wie in Abbildung ~\ref{fig:scemStromrMess} werden zur Erfassung der Messwerte zwei digitale Multimeter eingesetzt, wobei ein Gerät als Amperemeter und das andere als Voltmeter konfiguriert wird. Als Last dient ein \SI{10}{\ohm} und ein \SI{1}{\mega\ohm} Widerstand. Das Voltmeter wird parallel zum Lastwiderstand angeschlossen und unmittelbar vor dem Lastwiderstand wird das Amperemeter angeschlossen. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/scemStromrMess.png}
+	\caption{Schematischer Aufbau der stromrichtigen Messung, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \cite{saxl_labor1}}
+	\label{fig:scemStromrMess}
+\end{figure}
+
+\subsection{Versuchsdurchführung und Methoden}
+Die genauen Werte der beiden Lastwiderstände werden mit dem Multimeter bemessen bevor sie in die Schaltung eingebaut werden. Folglich wird bei der Spannungsquelle eine Eingangsspannung von \SI{5}{\volt} eingestellt. Der Strom und die Spannung können von den Multimetern abgelesen und anschließend notiert werden.
+
+\subsection{Ergebnis und Interpretation}
+
+\begin{table}[H]
+	\centering
+	\caption{Ergebnis der stromrichtigen Messung}
+	\label{tab:spnnri}
+	\footnotesize 
+	\begin{tabular}{llll}
+		\hline
+		R[\SI{}{\ohm}] gemessen & I[\SI{}{\milli\ampere}] & U[\SI{}{\volt}] & R[\SI{}{\ohm}] errechnet\\
+		\hline
+		9,7 & 495 & 4,95 & 10\\
+		$1.001\cdot10^6$ & $4,9\cdot10^{-3}$ & 5,06 & $1,032\cdot10^6$\\
+		\hline
+	\end{tabular}
+\end{table}
+
+Die Messergebnisse der stromrichtigen Messung verdeutlichen, dass diese Schaltung bei allen Widerstandsbereichen zu einem systematisch zu hohen berechneten Wert führt, da das Voltmeter den Spannungsabfall über dem Amperemeter miterfasst. Bei dem niederohmigen Widerstand ist die prozentuale Abweichung besonders ausgeprägt, da der Eigenwiderstand des Amperemeters hier proportional stark ins Gewicht fällt. Im Gegensatz dazu ist der Einfluss bei dem hochohmigen Widerstand deutlich geringer, da die zusätzliche Fehlerspannung des Amperemeters im Verhältnis zur hohen Lastspannung vernachlässigbar klein bleibt.
+
+%---------------------------------------------------------------------
+\newpage
+\section{Ersatzspannungsquelle}
+
+\subsection{Einleitung und Aufgabenstellung}
+Im Versuchsteil werden die Widerstandskennlinien einer Ersatzspannungsquellenschaltung aufgenommen.
+
+\subsection{Versuchsaufbau und Materialien}
+Als Energiequelle dient ein regelbares Netzgerät, welches eine variable Gleichspannung zur Verfügung stellt. Wie in Abbildung ~\ref{fig:scemAbb21} werden zur Erfassung der Messwerte zwei digitale Multimeter eingesetzt, wobei ein Gerät als Amperemeter und das andere als Voltmeter konfiguriert wird. Unmittelbar nach der Spannungsquelle wird ein Widerstand eingebaut, der den Innenwiderstand einer realen Spannungsquelle darstellen soll. Als Last dient ein \SI{100}{\ohm} und ein \SI{33}{\ohm} Widerstand.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/scemAbb21.png}
+	\caption{Schematischer Aufbau einer Ersatzspannungsquelle, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \cite{saxl_labor1}}
+	\label{fig:scemAbb21}
+\end{figure}
+
+\subsection{Versuchsdurchführung und Methoden}
+Die Eingangsspannung wird auf \SI{5}{\volt} eingestellt. Bei den Klemmen 1 und 2 wird zuerst ein Voltmeter angeschlossen um die Spannung $U_0 = U_{12}$ zu ermitteln. Daraufhin kann der Kurzschlussstrom $I_k$ mit dem Amperemeter zwischen Klemme 1 und 2 bemessen werden. Dieselbe Vorgehensweise kann mit den Lastwiderständen durchgeführt werden.
+\subsection{Ergebnis und Interpretation}
+Mit der gemessenen Leerlaufspannung und dem gemessenen Kurzschlussstrom lassen sich Innenwiderstand und
+die Quellspannung bestimmen. Die Belastungskennlinie der Ersatzspannungsquelle zeigt einen linear fallenden Verlauf, wobei die Klemmenspannung ausgehend von der Leerlaufspannung $U_0$ = \SI{5}{\volt} mit zunehmender Stromstärke kontinuierlich absinkt. Die experimentell ermittelten Messpunkte für die Lastwiderstände \SI{100}{\ohm} und \SI{33}{\ohm} liegen nahezu deckungsgleich auf dieser theoretischen Kennlinie (Abbildung~\ref{fig:Tabelle 10}), was die Plausibilität der Messreihe bestätigt. Die Abweichung des gemessenen Kurzschlussstroms \SI{208.1}{\milli\ampere} vom berechneten Idealwert \SI{227}{\milli\ampere} lässt sich quantitativ durch den zusätzlichen Innenwiderstand des verwendeten Amperemeters erklären.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Tabelle 10.pdf}
+	\caption{Widerstandkennlinie der Ersatzspannungsquelle}
+	\label{fig:Tabelle 10}
+\end{figure}
+
+%---------------------------------------------------------------------
+\newpage
+\section{Reihenschaltung von Spannungsquellen}
+
+\subsection{Einleitung und Aufgabenstellung}
+Zwei Spannungsquellen werden mit ungleichnamigen Polen zusammen in Reihe verschaltet.
+
+\subsection{Versuchsaufbau und Materialien}
+Als Energiequellen dienen zwei regelbare Netzgeräte, welche jeweils eine variable Gleichspannung zur Verfügung stellen. Wie in Abbildung ~\ref{fig:scemAbb24} wird zur Erfassung der Messwerte ein digitales Multimeter eingesetzt. Die Spannungsquellen werden so zusammengeschaltet, dass das Voltmeter an beiden Pluspolen der Quellen angeschlossen wird, um die Gesamtspannung zu ermitteln.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{img/scemAbb24.png}
+	\caption{Schematischer Aufbau einer Reihenschaltung von Spannungsquellen, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \cite{saxl_labor1}}
+	\label{fig:scemAbb24}
+\end{figure}
+
+\subsection{Versuchsdurchführung und Methoden}
+Die Spannung $U_{01}$ ist auf \SI{5}{\volt} eingestellt und die Spannung $U_{02}$ ist auf \SI{-15}{\volt} eingestellt. Bei den Klemmen $+$ und $-$ wird ein Voltmeter angeschlossen um die Spannung $U_{ges}$ zu ermitteln.
+\subsection{Ergebnis und Interpretation}
+$U_{ges}$ bemessen:
+\begin{equation}  \label{eq:Uges}
+	U_{ges} = \SI{19,92}{\volt},
+\end{equation}
+$U_{ges}$ berechnet:
+\begin{equation}  \label{eq:Uges2}
+	U_{ges} = U_{01} - U_{02} = \SI{5}{\volt} - (-\SI{15}{\volt}) = \SI{20}{\volt},
+\end{equation}
+
+%---------------------------------------------------------------------
+\newpage
+\section{Parallelschaltung von Spannungsquellen}
+
+\subsection{Einleitung und Aufgabenstellung}
+Gegenstand dieser Untersuchung ist das Betriebsverhalten zweier parallelgeschalteter Spannungsquellen bei gleichen und ungleichen Urspannungen. Im Leerlauf und unter Last werden die Klemmenspannung $U_{12}$, die Spannungsabfälle an den Innenwiderständen sowie die auftretenden Ausgleichs-, Teil- und Lastströme messtechnisch erfasst. Die Ergebnisse werden abschließend durch eine rechnerische Überprüfung der Lastströme $I_L$ auf ihre Plausibilität verifiziert.
+
+\subsection{Versuchsaufbau und Materialien}
+Als Energiequellen dienen zwei regelbare Netzgeräte, welche jeweils eine variable Gleichspannung zur Verfügung stellen. Wie in Abbildung~\ref{fig:scemAbb26} wird zur Erfassung der Messwerte ein digitales Multimeter eingesetzt. Die Spannungsquellen werden so zusammengeschaltet, dass die beiden Plus- und Minuspole der Quellen zusammengeschaltet sind. Unmittelbar nach den Quellen ist jeweils ein Innenwiderstand $R_i$ = \SI{100}{\ohm} verbaut. Als Verbraucher ist ein \SI{1}{\kilo\ohm} Lastwiderstand verbaut.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{img/scemAbb26.png}
+	\caption{Schematischer Aufbau einer Parallelschaltung von Spannungsquellen, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \cite{saxl_labor1}}
+	\label{fig:scemAbb26}
+\end{figure}
+
+\subsection{Versuchsdurchführung und Methoden}
+Die Spannung $U_{01}$ und $U_{02}$ sind auf \SI{15}{\volt} eingestellt. Alle Größen der Tabelle~\ref{tab:GleichUr} werden ermittelt.
+Folglich wird die  Spannung $U_{01}$ auf \SI{10}{\volt} eingestellt und die Messungen werden für die Werte der Tabelle~\ref{tab:UngleichUr} wiederholt.
+\subsection{Ergebnis und Interpretation}
+\begin{table}[H]
+	\centering
+	\caption{Gleiche Urspannung ($U_{01}=U_{02}$)}
+	\label{tab:GleichUr}
+	\footnotesize 
+	\begin{tabular}{llllll}
+	    \multicolumn{6}{c}{Leerlauf}\\
+	    \hline
+		$U_{i1}$[\SI{}{\volt}] & $U_{i2}$[\SI{}{\volt}] & $U_{12}$[\SI{}{\volt}] & $I_0$[\SI{}{\milli\ampere}]\\
+		\hline
+		14,90 & 14,79 & 0,025 & 0,55\\
+		\hline
+		\\
+		\multicolumn{6}{c}{Belastung (\SI{1}{\kilo\ohm})}\\
+		\hline
+		$U_{i1}$[\SI{}{\volt}] & $U_{i2}$[\SI{}{\volt}] & $U_{12}$[\SI{}{\volt}] & $I_1$[\SI{}{\milli\ampere}] & $I_2$[\SI{}{\milli\ampere}] & $I_L$[\SI{}{\milli\ampere}]\\
+		\hline
+		0,716 & 0,710 & 14,21 & 7,23 & 7,02 & 14,41\\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\caption{Ungleiche Urspannung ($U_{01} \neq U_{02}$)}
+	\label{tab:UngleichUr}
+	\footnotesize 
+	\begin{tabular}{llllll}
+		\multicolumn{6}{c}{Leerlauf}\\
+		\hline
+		$U_{i1}$[\SI{}{\volt}] & $U_{i2}$[\SI{}{\volt}] & $U_{12}$[\SI{}{\volt}] & $I_0$[\SI{}{\milli\ampere}]\\
+		\hline
+		9,93 & 14,78 & 0,021 & 24,25\\
+		\hline
+		\\
+		\multicolumn{6}{c}{Belastung (\SI{1}{\kilo\ohm})}\\
+		\hline
+		$U_{i1}$[\SI{}{\volt}] & $U_{i2}$[\SI{}{\volt}] & $U_{12}$[\SI{}{\volt}] & $I_1$[\SI{}{\milli\ampere}] & $I_2$[\SI{}{\milli\ampere}] & $I_L$[\SI{}{\milli\ampere}]\\
+		\hline
+		1,437 & 2,63 & 12,26 & -14,44 & 26,87 & 12,45\\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+$I_L$ bei gleicher Urspannung berechnet:
+\begin{equation}  \label{eq:Uges}
+	I_L = \frac{U_{01} \cdot R_{i2} + U_{02} \cdot R_{i1}}{R_{i1} \cdot R_{i2} + R_{i1} \cdot R_L + R_{i2} \cdot R_L} = \SI{14,29}{\milli\ampere},
+\end{equation}
+$I_L$ bei ungleicher Urspannung berechnet:
+\begin{equation}  \label{eq:Uges}
+	I_L = \frac{U_{01} \cdot R_{i2} + U_{02} \cdot R_{i1}}{R_{i1} \cdot R_{i2} + R_{i1} \cdot R_L + R_{i2} \cdot R_L} = \SI{11,9}{\milli\ampere},
+\end{equation}
+
+\noindent Die Parallelschaltung realer Spannungsquellen zeigt, dass bei gleichen Quellspannungen eine symmetrische Lastverteilung stattfindet, wobei sich der Gesamtstrom nahezu gleichmäßig auf beide Quellen aufteilt. Liegen hingegen ungleiche Quellspannungen vor, entstehen bereits im Leerlauf erhebliche Ausgleichsströme, da die stärkere Quelle die schwächere belastet. Unter Last führt diese Ungleichheit dazu, dass die Quelle mit der höheren Spannung den Hauptteil des Stroms liefert.
+
+
+

@@ -1,0 +1,473 @@
+
+\chapter{Wechselstromtechnik}
+
+\section{Lade- und Entladevorgang eines Kondensators}
+
+\subsection{Einleitung und Aufgabenstellung}
+Ziel des Versuchs ist die oszilloskopische Erfassung der Lade- und Entladevorgänge eines Kondensators bezüglich Spannung $u_C$ und Strom $i_C$. Aus den gewonnenen Kurvenverläufen werden die Zeitkonstante $\tau$ sowie spezifische Augenblickswerte zu definierten Zeitpunkten ermittelt und anschließend berechnet. Ergänzend wird die gespeicherte Ladung $Q$ nach einer Ladezeit von \SI{5}{\milli\second} bestimmt.
+
+\subsection{Versuchsaufbau und Materialien}
+Der Aufbau umfasst einen Funktionsgenerator zur Erzeugung einer Rechteck-Wechselspannung\\($u_s$ = \SI{6}{\volt}, $f =$ \SI{100}{\hertz}), die ein RC-Glied aus einem \SI{4,7}{\kilo\ohm} Widerstand und einem \SI{0,22}{\micro\farad} Kondensator speist. Die Signalanalyse erfolgt gemäß der vorliegenden schematischen Abbildung~\ref{fig:scemAbb3221} über ein Oszilloskop, wobei Kanal Y1 am Punkt A die Eingangsspannung und Kanal Y2 am Punkt B die Kondensatorspannung $u_C$ gegen das gemeinsame Massepotential an Punkt C erfasst.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{img/scemAbb3221.png}
+	\caption{Schematischer Aufbau der RC Schaltung, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \cite{saxl_labor2}}
+	\label{fig:scemAbb3221}
+\end{figure}
+
+\subsection{Versuchsdurchführung und Methoden}
+Das RC-Glied wird mit der Rechteckspannung gespeist, um die Lade- und Entladevorgänge periodisch am Oszilloskop darzustellen. Die Zeitkonstante $\tau$ sowie die geforderten Augenblickswerte werden grafisch aus den Kurvenverläufen ermittelt. Abschließend erfolgt ein Abgleich der Messwerte durch eine rechnerische Überprüfung mittels der Exponentialfunktionen für die Ladung und Entladung. 
+
+\subsection{Ergebnis und Interpretation}
+Die Messungen bestätigen das theoretische Zeitverhalten des RC-Glieds. Wie in Abbildung~\ref{fig:Abb_3222} und~\ref{fig:Abb_3223} zu sehen ist, folgt die Kondensatorspannung $u_C$ einer exponentiellen Sättigungskurve, während die Spannung am Widerstand $u_R$ (proportional zum Ladestrom) bei jedem Schaltvorgang der Rechteckspannung auf ihr Maximum springt und dann gegen Null abfällt. Die berechnete Zeitkonstante von $\tau$ = \SI{1,03}{\milli\second} stimmt mit den beobachteten Kurvenverläufen überein, da der Kondensator innerhalb einer halben Periodendauer nahezu vollständig geladen wird.
+\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Abb_3222.pdf}
+	\caption{Zeitlicher Verlauf der Lade- und Entladevorgänge des Kondensators im Vergleich zur Eingangsspannung}
+	\label{fig:Abb_3222}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Abb_3223.pdf}
+	\caption{Zeitlicher Verlauf der Spannung am Widerstand im Vergleich zur Eingangsspannung}
+	\label{fig:Abb_3223}
+\end{figure}
+\newpage
+\noindent Zeitkonstante $\tau$ aus Schirmbild = \SI{1}{\milli\second}\\
+Zeitkonstante $\tau$ berechnet:
+\begin{equation}  \label{eq:strom11}
+	\tau = R \cdot C = \SI{1,03}{\milli\second},
+\end{equation}
+\\
+Augenblickswert der Spannung $u_c$ aus Schirmbild = \SI{4,88}{\volt}\\
+Augenblickswert der Spannung $u_c$ berechnet:
+\begin{equation}  \label{eq:strom12}
+	u_C = U \cdot (1 - e^{\frac{-t}{\tau}}) = \SI{5,14}{\volt},
+\end{equation}
+\\
+Augenblickswert des Stromes $i_c$ aus Schirmbild:
+\begin{equation}  \label{eq:strom13}
+	i_C = \frac{U(\triangle Y)}{R} = \SI{117}{\micro\ampere},
+\end{equation}
+Augenblickswert des Stromes $i_c$ berechnet:
+\begin{equation}  \label{eq:strom14}
+	i_C = -\frac{U}{R} \cdot e^{\frac{-t}{\tau}} = \SI{113}{\micro\ampere},
+\end{equation}
+Ladung $Q$ nach einer Ladezeit von \SI{5}{\milli\second}:
+\begin{equation}  \label{eq:strom15}
+	Q = C \cdot u_C(\SI{5}{\milli\second}) = \SI{1,32}{\micro\coulomb},
+\end{equation}
+
+\newpage
+%---------------------------------------------------------------------
+
+\section{Phasenverschiebung zwischen Strom\\und Spannung am Kondensator}
+
+\subsection{Einleitung und Aufgabenstellung}
+Ziel dieses Versuchs ist die Analyse des frequenzabhängigen Übertragungsverhaltens eines RC-Glieds bei einer sinusförmigen Wechselspannung. Im Mittelpunkt steht dabei die experimentelle Bestimmung der Phasenverschiebung zwischen der Kondensatorspannung $u_C$ und dem Ladestrom $i_C$ (gemessen als Spannungsabfall $u_R$ am Messwiderstand).
+
+\subsection{Versuchsaufbau und Materialien}
+Der Aufbau folgt der Schaltung aus Abb.~\ref{fig:scemAbb3321} unter Verwendung eines Funktionsgenerators, der eine Sinusspannung von \SI{3}{\volt\s\s} bei \SI{1}{\kilo\hertz} liefert. Die Schaltung besteht aus einem \SI{1}{\kilo\ohm} Messwiderstand und einem \SI{0,22}{\micro\farad} Kondensator, wobei der Bezugspunkt des Oszilloskops zwischen beide Bauteile (Messpunkt C) gelegt wird. Um die daraus resultierende Phasenverschiebung von \SI{180}{\degree} zu korrigieren und die tatsächlichen Spannungsverläufe korrekt darzustellen, wird die Spannung $u_C$ am Oszilloskop invertiert.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{img/scemAbb3321.png}
+	\caption{Schematischer Aufbau der RC Schaltung, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \cite{saxl_labor2}}
+	\label{fig:scemAbb3321}
+\end{figure}
+\newpage
+\subsection{Versuchsdurchführung und Methoden}
+Der Funktionsgenerator wird eingeschaltet. Die Spannungsverläufe über dem Widerstand und dem Kondensator werden mittels Oszilloskop erfasst. Da der Widerstand als Messwiderstand fungiert, wird über $u_R$ der Stromverlauf $i_C$ visualisiert. Um die schaltungsbedingte Verschiebung des Bezugspunkts auszugleichen, wird Kanal 2 am Oszilloskop invertiert. Abschließend wird die Zeitdifferenz $\triangle{t}$ der Nulldurchgänge und der Phasenverschiebungswinkel gemessen.
+
+\subsection{Ergebnis und Interpretation}
+Der Versuch belegt die theoretische Phasenverschiebung in einem RC-Glied bei sinusförmiger Anregung. Aus dem Plot~\ref{fig:Abb_3322} ist ersichtlich, dass die Spannung am Widerstand und damit der Ladestrom der Kondensatorspannung zeitlich vorausläuft.
+Die Messung bestätigt, dass der Kondensator als Blindwiderstand wirkt, wodurch Strom und Spannung nicht zeitgleich ihre Maxima erreichen. Die Invertierung von Kanal 2 ermöglicht dabei die korrekte Darstellung der Phasenbeziehung trotz des gemeinsamen Bezugspunkts C.
+\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Abb_3322.pdf}
+	\caption{Zeitlicher Verlauf der Phasenverschiebung zwischen Kondensatorspannung und Widerstandsspannung}
+	\label{fig:Abb_3322}
+\end{figure}
+\noindent Periodendauer $T$ gemessen $=$ \SI{1,01}{\milli\second}\\
+Periodendauer $T$ berechnet: 
+\begin{equation}  \label{eq:TauL}
+	T = {\frac{1}{f}}{} = \SI{1}{\milli\second},
+\end{equation}
+Phasenverschiebungswinkel $\phi$ gemessen $=$ \SI{88}{\degree}; berechnet $=$ \SI{90}{\degree}
+\newpage
+%---------------------------------------------------------------------
+\section{Kapazitiver Blindwiderstand eines Kondensators}
+
+\subsection{Einleitung und Aufgabenstellung}
+Dieser Versuch untersucht den frequenzabhängigen Blindwiderstand $X_C$ von verschiedenen Kondensatoren. Ziel ist es, die Spitze-Spitze-Werte der Spannungen am Messwiderstand $u_R$ und am Kondensator $u_C$ bei unterschiedlichen Frequenzen oszilloskopisch zu messen. Aus diesen Werten wird der jeweilige Kondensatorstrom $i_C$ und der Blindwiderstand $X_C$ berechnet, um den theoretischen Zusammenhang zwischen Frequenz, Kapazität und Widerstand experimentell zu bestätigen.
+
+\subsection{Versuchsaufbau und Materialien}
+Der Aufbau aus Abb.~\ref{fig:scemAbb3421} besteht aus einer Reihenschaltung eines Widerstands \SI{1}{\kilo\ohm} und einem der zur Verfügung stehenden Kondensatoren (\SI{0,22}{\micro\farad}, \SI{0,47}{\micro\farad} oder \SI{1}{\micro\farad}). Ein Funktionsgenerator dient als Spannungsquelle und liefert eine Sinusspannung von \SI{8}{\volt} bei variablen Frequenzen. Zur Messung wird ein Oszilloskop verwendet, wobei der Bezugspunkt an den Messpunkt C zwischen die Bauteile gelegt wird, um die Spannung $u_R$ und $u_C$ zu erfassen.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{img/scemAbb3421.png}
+	\caption{Schematischer Aufbau der RC Schaltung, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \cite{saxl_labor2}}
+	\label{fig:scemAbb3421}
+\end{figure}
+
+\subsection{Versuchsdurchführung und Methoden}
+Der Funktionsgenerator wird eingeschaltet. Für die verschiedenen Kondensatoren werden nacheinander die in der Tabelle vorgegebenen Frequenzen eingestellt. Am Oszilloskop werden die Spitze-Spitze-Werte der Spannungen $u_R$ und $u_C$ vom Schirmbild abgelesen und notiert. Mithilfe dieser Messwerte werden anschließend der Kondensatorstrom  $i_C$ sowie der Blindwiderstand $X_C$ berechnet.
+
+\subsection{Ergebnis und Interpretation}
+Der Verlauf der Kennlinien verdeutlicht den Zusammenhang zwischen dem Blindwiderstand, der Frequenz und der Kapazität. Man erkennt deutlich, dass der Widerstandswert bei allen Kondensatoren mit steigender Frequenz sinkt, da der Kondensator für schnellere Wechselvorgänge durchlässiger wird. Zudem zeigt der Vergleich der Kurven, dass ein kleinerer Kapazitätswert wie \SI{0,22}{\micro\farad} über den gesamten Frequenzbereich einen deutlich höheren Blindwiderstand aufweist als ein größerer Kondensator mit \SI{1}{\micro\farad}. Die Kurven bestätigen somit experimentell die physikalische Gesetzmäßigkeit, nach der $X_C$ sowohl bei zunehmender Frequenz als auch bei zunehmender Kapazität abnimmt.
+\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Abb_3422.pdf}
+	\caption{Zusammenhang zwischen Blindwiderstand des Kondensators bei verschiedenen Frequenzen}
+	\label{fig:Abb_3422}
+\end{figure}
+Überprüfung des Blindwiderstandes $X_C$ bei $C = $ \SI{0,47}{\micro\farad} und $f = $ \SI{600}{\hertz}:
+\begin{equation}  \label{eq:strom}
+ X_C = \frac{1}{2\cdot\pi\cdot f\cdot C} = \frac{1}{2 \cdot \pi \cdot \SI{600}{\hertz} \cdot \SI{0,47e-6}{\farad}} = \SI{564,38}{\ohm},
+\end{equation}
+\newpage
+%---------------------------------------------------------------------
+
+\section{Blindleistung eines Kondensators}
+
+\subsection{Einleitung und Aufgabenstellung}
+ Dieser Versuch dient der Untersuchung der Augenblickswerte von Strom und Spannung an einem Kondensator sowie der daraus resultierenden Leistungskurve. Ziel ist es, die Phasenverschiebung zwischen der Kondensatorspannung $u_C$ und dem Ladestrom $i_C$ (gemessen als $u_R$) bei einer festen Frequenz von \SI{1}{\kilo\hertz} oszilloskopisch darzustellen. Durch die Auswertung der Messwerte soll der zeitliche Verlauf der Blindleistung nachvollzogen werden.
+
+\subsection{Versuchsaufbau und Materialien}
+Der Aufbau nach Abb. ~\ref{fig:scemAbb3721} besteht aus einer Reihenschaltung eines Messwiderstands \SI{1}{\kilo\ohm} und eines Kondensators \SI{0,22}{\micro\farad}. Als Spannungsquelle dient ein Funktionsgenerator, der eine Sinusspannung von $u_s=$ \SI{4}{\volt} bei einer Frequenz von $f=$ \SI{1}{\kilo\hertz} liefert. Die Messung erfolgt über ein Oszilloskop, wobei der Bezugspunkt an den Messpunkt C zwischen die Bauteile gelegt wird, um die Spannungen $u_R$ (Kanal 1) und $u_C$ (Kanal 2) gleichzeitig zu erfassen.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{img/scemAbb3721.png}
+	\caption{Schematischer Aufbau der RC Schaltung, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \cite{saxl_labor2}}
+	\label{fig:scemAbb3721}
+\end{figure}
+
+\subsection{Versuchsdurchführung und Methoden}
+ Der Funktionsgenerator wird eingeschaltet- Um die schaltungsbedingte Phasenverschiebung von \ang{180} am Messpunkt C auszugleichen, wird Kanal 2 am Oszilloskop invertiert. Die so erhaltenen Kurvenverläufe werden in ein Diagramm übertragen.
+
+\subsection{Ergebnis und Interpretation}
+Das Diagramm in Abbildung~\ref{fig:scemAbb3721} zeigt deutlich, dass Strom und Spannung am Kondensator nicht gleichzeitig verlaufen, sondern zeitlich versetzt sind. Der Strom erreicht sein Maximum früher als die Spannung, was die typische Phasenverschiebung eines Kondensators bestätigt. Die daraus berechnete Leistungskurve schwankt gleichmäßig um die Nulllinie, was beweist, dass der Kondensator keine Energie verbraucht, sondern sie nur zwischenspeichert und wieder abgibt. Die Wirkleistung ist Null. Die Energie pendelt nur als Blindleistung hin und her.
+\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Abb_3722.pdf}
+	\caption{Zeitlicher Verlauf der Kondensatorspannung, des Kondensatorstromes und der Kondensatorblindleistung}
+	\label{fig:Abb_3722}
+\end{figure}
+
+\newpage
+%---------------------------------------------------------------------
+\section{Ein- und Ausschaltvorgang an einer Spule}
+
+\subsection{Einleitung und Aufgabenstellung}
+Dieser Versuch untersucht das Einschalt- und Ausschaltverhalten einer Spule an einer Gleichspannung. Ziel ist es, den zeitlichen Verlauf von Spulenstrom $i_L$ und Spulenspannung $u_L$ mithilfe eines Oszilloskops sichtbar zu machen. Aus den resultierenden Kurven sollen wichtige Kenngrößen wie die Zeitkonstante $\tau$, die Induktivität $L$ sowie spezifische Augenblickswerte zu festgesetzten Zeitpunkten ermittelt werden.
+
+\subsection{Versuchsaufbau und Materialien}
+Der Aufbau nach Abbildung~\ref{fig:scemAbb3421} besteht aus einer Reihenschaltung eines Widerstands \SI{1}{\kilo\ohm} und einer Spule \SI{100}{\milli\henry}. Als Spannungsquelle dient ein Funktionsgenerator, der eine positive Rechteckspannung mit einer Amplitude von $U=$ \SI{6}{\volt} und einer Frequenz von $f=$\SI{1}{\kilo\hertz} liefert. Zur Messung der Spannungsverläufe wird ein Oszilloskop verwendet, wobei der Bezugspunkt am Messpunkt C liegt, um die Eingangsspannung an Kanal 1 und die Spulenspannung an Kanal 2 zu erfassen.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{img/scemAbb4221.png}
+	\caption{Schematischer Aufbau der RL Schaltung, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \cite{saxl_labor2}}
+	\label{fig:scemAbb4221}
+\end{figure}
+
+\subsection{Versuchsdurchführung und Methoden}
+Zuerst wird die Schaltung aufgebaut und der Funktionsgenerator mit den vorgegebenen Werten für Spannung und Frequenz gestartet. Um den Spulenstrom $i_L$ darzustellen, werden der Widerstand und die Spule in der Schaltung getauscht, sodass die am Widerstand abfallende Spannung oszilloskopiert werden kann, da diese proportional zum Strom ist. Die Einstellungen am Oszilloskop werden gemäß den Diagrammvorgaben angepasst, um die Kurven für den Ein- und Ausschaltvorgang exakt ablesen zu können. Aus den gewonnenen Kurvenverläufen werden anschließend die Zeitkonstante und die Induktivität berechnet.
+
+\subsection{Ergebnis und Interpretation}
+Die Kurvenverläufe in den Abbildungen~\ref{fig:Abb_4222} und~\ref{fig:Abb_4223} zeigen das typische Verhalten einer Spule. Beim Einschalten sinkt die Spannung $u_L$ exponentiell ab, während der Strom $i_L$ (sichtbar an $u_R$) zeitgleich ansteigt. Die berechnete Zeitkonstante von $\tau =$ \SI{100}{\micro\second} lässt sich im Diagramm bestätigen, da die Kurven nach dieser Zeit jeweils etwa \SI{63}{\percent} ihrer Änderung vollzogen haben. Die kleinen Unterschiede zwischen den berechneten Augenblickswerten und den Werten vom Schirmbild (z. B. \SI{5,19}{\milli\ampere} zu \SI{4,27}{\milli\ampere}) liegen im Rahmen der üblichen Messungenauigkeiten. Diese entstehen vor allem durch die Toleranzen der verwendeten Bauteile (Widerstand und Spule) sowie durch die begrenzte Ablesegenauigkeit am Oszilloskop.
+\\
+\\
+\\
+\noindent Zeitkonstante $\tau$ aus Schirmbild = \SI{100}{\micro\second}\\
+Zeitkonstante $\tau$ berechnet:
+\begin{equation}  \label{eq:strom11}
+	\tau = \frac{L}{R} = \SI{100}{\micro\second},
+\end{equation}
+\\
+Augenblickswert $i_L$ bei einer Einschaltdauer von \SI{0,2}{\milli\second} aus Schirmbild = \SI{4,27}{\milli\ampere}\\
+Augenblickswert $i_L$ bei einer Einschaltdauer von \SI{0,2}{\milli\second} berechnet:
+\begin{equation}  \label{eq:strom12}
+	i_L = \frac{U}{R}(1 - e^{\frac{-t}{\tau}}) = \SI{5,19}{\milli\ampere},
+\end{equation}
+\\
+Augenblickswert $u_L$ bei einer Einschaltdauer von \SI{0,25}{\milli\second} aus Schirmbild = \SI{0,3}{\volt}\\
+Augenblickswert $u_L$ bei einer Einschaltdauer von \SI{0,25}{\milli\second} berechnet:
+\begin{equation}  \label{eq:strom13}
+	u_L = U \cdot e^{\frac{-t}{\tau}}{} = \SI{0,493}{\volt},
+\end{equation}
+
+\noindent Induktivität $L$ aus Schirmbild = \SI{0,1}{\henry}\\
+Induktivität $L$ berechnet:
+\begin{equation}  \label{eq:strom15}
+	L = \tau \cdot R = \SI{0,1}{\henry},
+\end{equation}
+
+\newpage
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Abb_4222.pdf}
+	\caption{Zeitlicher Verlauf der Eingangsspannung und der Spulenspannung}
+	\label{fig:Abb_4222}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Abb_4223.pdf}
+	\caption{Zeitlicher Verlauf der Spannung am Widerstand im Vergleich zur Eingangsspannung}
+	\label{fig:Abb_4223}
+\end{figure}
+\newpage
+
+%---------------------------------------------------------------------
+\section{Phasenverschiebung zwischen Strom\\und Spannung an einer Spule}
+
+\subsection{Einleitung und Aufgabenstellung}
+In diesem Versuchsteil wird das Verhalten einer Spule an einer sinusförmigen Wechselspannung untersucht. Das Ziel ist es, die Verläufe von Spulenstrom $i_L$ und Spulenspannung $u_L$ gleichzeitig zu oszilloskopieren, um die Phasenverschiebung zwischen diesen beiden Größen experimentell zu bestimmen.
+
+\subsection{Versuchsaufbau und Materialien}
+Der Schaltungsaufbau nach Abb.~\ref{fig:scemAbb4321} besteht aus einer Reihenschaltung eines Messwiderstands (\SI{1}{\kilo\ohm}) und einer Spule (\SI{100}{\milli\henry}). Ein Funktionsgenerator liefert hierfür eine Sinusspannung von $u_{ss} =$ \SI{3}{\volt} bei einer Frequenz von $f =$ \SI{1}{\kilo\hertz}. Zur Messung wird ein Oszilloskop verwendet, dessen Masse am Messpunkt C zwischen den Bauteilen angeschlossen ist. Kanal 1 erfasst dabei die Spannung $u_R$ am Widerstand (proportional zum Strom), während Kanal 2 die Spulenspannung $u_L$ misst.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{img/scemAbb4321.png}
+	\caption{Schematischer Aufbau der RL Schaltung, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \cite{saxl_labor2}}
+	\label{fig:scemAbb4321}
+\end{figure}
+
+\subsection{Versuchsdurchführung und Methoden}
+Zunächst werden die Parameter am Funktionsgenerator und Oszilloskop eingestellt. Aufgrund des gemeinsamen Bezugspunkts C sind die Spannungen um \ang{180} phasenverschoben; daher wird Kanal 2 am Oszilloskop invertiert, um die tatsächliche Phasenlage darzustellen. Die so erhaltenen Kurvenverläufe werden in das Diagramm übertragen. Anhand der Nulldurchgänge oder Maxima der beiden Signale wird anschließend die zeitliche Verschiebung gemessen und die daraus resultierende Phasenverschiebung bestimmt.
+
+\subsection{Ergebnis und Interpretation}
+Das Oszilloskop-Diagramm in Abbildung ~\ref{fig:Abb_4322} bestätigt das theoretische Verhalten der Spule im Wechselstromkreis. Der Vergleich zwischen der Spulenspannung (orange) und der Spannung am Widerstand (blau), die stellvertretend für den Spulenstrom steht, zeigt eine deutliche Phasenverschiebung. Die Auswertung ergibt eine Phasenverschiebung von \SI{84}{\degree}, wobei die Spannung dem Strom vorausläuft. Dieser Wert liegt sehr nah an der idealen theoretischen Verschiebung von \SI{90}{\degree}. Die geringe Abweichung lässt sich durch die Messgenauigkeit am Oszilloskop und die Bauteiltoleranzen der verwendeten Spule und des Widerstands erklären. Damit ist nachgewiesen, dass die Spule als induktiver Blindwiderstand wirkt, der den Strom zeitlich verzögert.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Abb_4322.pdf}
+	\caption{Zeitlicher Verlauf der Phasenverschiebung zwischen Spulenspannung und Widerstandsspannung}
+	\label{fig:Abb_4322}
+\end{figure}
+
+\noindent Periodendauer $T$ gemessen = \SI{1}{\milli\second}\\
+Periodendauer $T$ berechnet: 
+\begin{equation}  \label{eq:TauL}
+	T = {\frac{1}{f}}{} = \SI{0,1}{\milli\second},
+\end{equation}
+
+\noindent Phasenverschiebungswinkel $\phi$ gemessen = \SI{84}{\degree}; berechnet $=$ \SI{90}{\degree}\\
+
+\newpage
+%---------------------------------------------------------------------
+
+\section{Parallelschaltung von Widerstand und Spule}
+
+\subsection{Einleitung und Aufgabenstellung}
+In diesem Versuch wird eine Parallelschaltung aus einem ohmschen Widerstand und einer Spule untersucht. Ziel ist es, die verschiedenen Teilströme (Wirkstrom und Blindstrom) sowie den Gesamtstrom messtechnisch zu erfassen. Durch den Vergleich der Messwerte sollen die rechnerischen Zusammenhänge der Leitwerte und der Phasenverschiebung im Zeigerdiagramm überprüft werden.
+
+\subsection{Versuchsaufbau und Materialien}
+Der Versuch wird gemäß der Schaltung in Abbildung~\ref{fig:scemAbb5521} als Parallelschaltung realisiert. Hierbei werden ein ohmscher Widerstand mit \SI{1}{\kilo\ohm} und eine Spule mit einer Induktivität von \SI{100}{\milli\henry} parallel an einen Funktionsgenerator angeschlossen. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{img/scemAbb5521.png}
+	\caption{Schematischer Aufbau von einer Parallelschaltung von Widerstand und Spule, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \cite{saxl_labor2}}
+	\label{fig:scemAbb5521}
+\end{figure}
+\newpage
+\subsection{Versuchsdurchführung und Methoden}
+Der Funktionsgenerator wird eingeschaltet. Er wird auf eine sinusförmige Ausgangsspannung mit einem Effektivwert von $U_{eff} = $ \SI{5}{\volt} und einer Frequenz von $f =$ \SI{1}{\kilo\hertz} eingestellt.
+Zur messtechnischen Erfassung der Teilströme und des Gesamtstroms wird ein Multimeter verwendet, das nacheinander an den dafür vorgesehenen Messpunkten A-B (Gesamtstrom I), C-D (Blindstrom $I_L$) und E-F (Wirkstrom $I_R$) in den Stromkreis eingebracht wird.
+
+\subsection{Ergebnis und Interpretation}
+Gemessene Ergebnisse:\\
+Scheinstrom $I$ (Messpunkte A-B): \SI{206}{\micro\ampere},\\
+Blindstrom $I_L$ (Messpunkte C-D): \SI{193,4}{\micro\ampere},\\
+Wirkstrom $I_R$ (Messpunkte E-F): \SI{98,6}{\micro\ampere},\\
+\begin{equation}  \label{eq:IgesW}
+	I_{ges} = \sqrt[]{I_L^2 + I_R^2}= \SI{217,1}{\micro\ampere}
+\end{equation}
+
+\noindent Ideale Berechnungen:\\
+
+\begin{equation}  \label{eq:IgesW2}
+	I_R = \frac{U}{R}= \SI{5}{\milli\ampere},
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW2}
+	I_L = \frac{U}{X_L}= \SI{7,96}{\milli\ampere},
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW}
+	I_{ges} = \sqrt[]{I_L^2 + I_R^2}= \SI{9,4}{\milli\ampere}
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW}
+	G = \frac{1}{R}= \SI{1}{\milli\siemens},
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW}
+	B_L = \frac{1}{\omega \cdot L}= \SI{1,59}{\milli\siemens},
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW}
+	Y = \sqrt[]{G^2 + B_L^2}=  \SI{1,88}{\milli\siemens},
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW}
+	sin\phi = \frac{I_L}{I_{ges}}= 0,846; \phi = \SI{57,8}{\degree},
+\end{equation}
+\newpage
+\noindent Die rechnerische Auswertung und die grafische Darstellung in den Zeigerdiagrammen (Abb.~\ref{fig:Abb_5522}) verdeutlichen das Verhalten der Parallelschaltung aus Widerstand und Spule. Während in einer Reihenschaltung die Spannungen addiert werden, zeigt dieser Versuch, dass sich in der Parallelschaltung die Teilströme zum Gesamtscheinstrom I geometrisch addieren.
+Der berechnete Phasenwinkel von ca. \SI{57,8}{\degree} zeigt, dass die Schaltung aufgrund der gewählten Bauteilwerte (\SI{1}{\kilo\ohm} und \SI{100}{\milli\henry}) einen stark induktiven Charakter aufweist. Dies wird im Zeigerdiagramm durch den deutlich längeren Blindstromzeiger im Vergleich zum Wirkstromzeiger visualisiert. Da die berechneten Idealwerte im Milliampere-Bereich liegen, die im Labor gemessenen Werte jedoch im Mikroampere-Bereich waren, ist von einem Messfehler oder einer falschen Skalierung am Messgerät auszugehen.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Abb_5522.pdf}
+	\caption{Zeigerdiagramme der Ströme und Leitwerte}
+	\label{fig:Abb_5522}
+\end{figure}
+
+\newpage
+%---------------------------------------------------------------------
+\section{Reihenschaltung von Widerstand und Kondensator}
+
+\subsection{Einleitung und Aufgabenstellung}
+In diesem Versuch wird eine RC-Reihenschaltung aus einem Widerstand und einem Kondensator bei einer Sinusspannung untersucht. Ziel ist die messtechnische und rechnerische Bestimmung der Wirkspannung, der Blindspannung sowie des Stroms. Aus den Werten werden der Scheinwiderstand, der Blindwiderstand und der Phasenwinkel ermittelt und in Zeigerdiagrammen für Spannung und Widerstand dargestellt.
+
+\subsection{Versuchsaufbau und Materialien}
+Der Versuch wird als Reihenschaltung gemäß Abbildung~\ref{fig:scemAbb5221} aufgebaut. Als Komponenten werden ein ohmscher Widerstand mit \SI{1}{\kilo\ohm} und ein Kondensator mit einer Kapazität von \SI{0,22}{\micro\farad} verwendet. Die Schaltung wird an einen Funktionsgenerator angeschlossen, der auf eine sinusförmige Ausgangsspannung von $U_{eff} =$ \SI{5}{\volt} und eine Frequenz von  $f =$ \SI{1}{\kilo\hertz} eingestellt wird. Zur Erfassung der Messwerte dient ein Multimeter.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{img/scemAbb5221.png}
+	\caption{Schematischer Aufbau von einer Reihenschaltung von Widerstand und Kondensator, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \cite{saxl_labor2}}
+	\label{fig:scemAbb5221}
+\end{figure}
+\newpage
+\subsection{Versuchsdurchführung und Methoden}
+Mit dem Multimeter werden nacheinander die Wirkspannung $U_R$ am Widerstand, die Blindspannung $U_C$ am Kondensator sowie der Gesamtstrom $I$ in der Leitung gemessen. Die ermittelten Werte dienen als Basis für die rechnerische Bestimmung des Phasenwinkels $\phi$, des Scheinwiderstands $Z$ und des Blindwiderstands $X_C$.
+
+\subsection{Ergebnis und Interpretation}
+Gemessene Ergebnisse:\\
+Scheinstrom $I$ (Messpunkte A-B): \SI{34,7}{\micro\ampere},\\
+Blindspannung $U_C$ (Messpunkte D-E): \SI{0,955}{\volt},\\
+Wirkspannung $U_R$ (Messpunkte C-D): \SI{1,28}{\volt},\\
+
+\noindent Ideale Berechnungen:\\
+
+\begin{equation}  \label{eq:IgesW2}
+	U_R = I \cdot R= \SI{4,05}{\volt},
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW2}
+	U_C = I \cdot X_C = \SI{2,93}{\volt},
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW}
+	I = \frac{U}{Z}= \SI{4,05}{\milli\ampere}
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW}
+	tan\phi = \frac{U_C}{U_R} = 0,723; \phi =\SI{35,9}{\degree},
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW}
+	Z = \frac{U}{I}= \SI{1234,3}{\ohm},
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW}
+	X_C = Z \cdot sin\phi =  \SI{723,43}{\ohm}
+\end{equation}
+
+\newpage
+\noindent
+Die Untersuchung der RC-Reihenschaltung zeigt deutlich das für Kapazitäten typische Verhalten im Wechselstromkreis. Im Gegensatz zur reinen Wirkwiderstandsschaltung tritt hier eine Phasenverschiebung auf, bei welcher der Strom der Spannung voreilt. Dies wird in den Zeigerdiagrammen (Abb.~\ref{fig:Abb_552}) durch die nach unten gerichteten Blindanteile ($U_C$ und $X_C$) visualisiert. Die rechnerische Auswertung ergibt einen Phasenwinkel von ca. \SI{35,9}{\degree}. Der Vergleich zwischen den idealen Werten und den Messungen bestätigt erneut, dass die im Labor erfassten Daten (insbesondere der Strom) weit unter den theoretisch erwarteten Werten liegen. Dennoch belegen die Verhältnisse der Spannungen zueinander die physikalische Korrektheit des Spannungsdreiecks, bei dem die Gesamtspannung U die geometrische Summe aus Wirk- und Blindspannung bildet. Die Schaltung verhält sich somit exakt nach den Gesetzen der komplexen Wechselstromrechnung. Die Zeigerdiagramme wurden wegen der Messfehler mit den idealen Werten erstellt.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Abb_552.pdf}
+	\caption{Zeigerdiagramme der Ströme und Leitwerte}
+	\label{fig:Abb_552}
+\end{figure}
+
+\newpage
+%---------------------------------------------------------------------
+
+\section{Wirk-, Blind- und Scheinleistung}
+
+\subsection{Einleitung und Aufgabenstellung}
+In diesem Versuchsteil wird eine Parallelschaltung aus einem Widerstand, einem Kondensator und einer Spule untersucht. Bei einer sinusförmigen Spannung sollen die Leistungen (Scheinleistung, Wirkleistung sowie die Blindleistungen) sowie der Phasenverschiebungswinkel messtechnisch und rechnerisch bestimmt werden. Ziel ist es, das Zusammenwirken der drei unterschiedlichen Bauelemente in der Parallelschaltung zu analysieren und im Leistungs-Zeigerdiagramm darzustellen.
+
+\subsection{Versuchsaufbau und Materialien}
+Die Schaltung wird als Parallelschaltung gemäß Abbildung~\ref{fig:scemAbb51021} realisiert. Dabei werden ein ohmscher Widerstand (R = \SI{470}{\ohm}), ein Kondensator (C = \SI{0,47}{\micro\farad}) und eine Spule (L = \SI{100}{\milli\henry}) parallel an einen Funktionsgenerator angeschlossen. Der Generator liefert eine sinusförmige Ausgangsspannung mit einem Effektivwert von $U_{eff} =$ \SI{3}{\volt} bei einer Frequenz von f = \SI{1}{\kilo\hertz}. Zur Bestimmung der Leistungen werden ein Multimeter sowie die entsprechenden Messpunkte (A bis H) genutzt, um den Gesamtstrom $I$ sowie die Teilströme nacheinander zu erfassen.
+ 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{img/scemAbb51021.png}
+	\caption{Schematischer Aufbau von einer RLC-Schaltung, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \cite{saxl_labor2}}
+	\label{fig:scemAbb51021}
+\end{figure}
+\newpage
+\subsection{Versuchsdurchführung und Methoden}
+ Mit dem Multimeter werden nacheinander die Effektivwerte des Gesamtstroms $I$ sowie der Teilströme an den jeweiligen Messpunkten erfasst. Diese Messdaten dienen als Grundlage, um die Wirk-, Blind- und Scheinleistungen sowie den Phasenverschiebungswinkel rechnerisch zu bestimmen.
+
+\subsection{Ergebnis und Interpretation}
+Gemessene Ergebnisse:\\
+Gesamtstrom $I$ (Messpunkte A-B): \SI{145,5}{\micro\ampere},\\
+Wirkstrom $I_R$ (Messpunkte C-D): \SI{120,4}{\micro\ampere},\\
+Kondensatorstrom $I_C$ (Messpunkte E-F): \SI{174,5}{\micro\ampere},\\
+Spulenstrom $I_L$ (Messpunkte G-H): \SI{93,8}{\micro\ampere},\\
+
+\noindent Ideale Berechnungen:\\
+
+\begin{equation}  \label{eq:IgesW2}
+	I_R = \frac{U}{R}= \SI{6,38}{\milli\ampere},
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW2}
+	I_L = \frac{U}{X_L}= \SI{4,77}{\milli\ampere},
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW}
+	I_C = \frac{U}{X_C}= \SI{8,86}{\milli\ampere},
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW}
+	P = U \cdot I_R = \SI{19,14}{\milli\watt},
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW}
+	S = U \cdot I = \SI{22,74}{\milli\volt\ampere},
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW}
+	Q_C = U \cdot I_C =  \SI{26,58}{\milli\var},
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW}
+	Q_L = U \cdot I_L =  \SI{14,31}{\milli\var},
+\end{equation}
+
+\begin{equation}  \label{eq:IgesW}
+	cos\phi = \frac{P}{S} = 0,641; \phi = \SI{32,66}{\degree},
+\end{equation}
+
+
+\newpage
+\noindent
+Die RCL-Parallelschaltung demonstriert die Teilkompensation von Blindleistungen: Da $Q_C$ und $Q_L$ entgegengesetzt wirken, reduziert sich die Gesamt-Blindleistung auf $Q_{ges} = Q_C - Q_L$. Da $Q_C$ überwiegt, verhält sich die Schaltung mit einem Phasenwinkel von $\phi =$ \SI{32,66}{\degree} kapazitiv.
+Die theoretische Analyse bestätigt das Leistungsdreieck, in dem die Scheinleistung $S$ die geometrische Summe aus Wirkleistung $P$ und der resultierenden Blindleistung bildet. Trotz geringer Messstromstärken (vermutlich falsch angeschlossener Messspitzen) belegen die berechneten Verhältnisse die physikalische Korrektheit der komplexen Wechselstromrechnung für parallele Zweige.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{img/Abb_5102.pdf}
+	\caption{Zeigerdiagramm der Leistungen}
+	\label{fig:Abb_5102}
+\end{figure}
+
+\newpage
+%---------------------------------------------------------------------
+

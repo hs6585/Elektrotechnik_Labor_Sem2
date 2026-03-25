@@ -1,0 +1,43 @@
+\babel@toc {ngerman}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematischer Aufbau des Stromkreises mit einem ohmschen Verbraucher, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor1}}}{3}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Stromkennlinien der Labormesswerte vom Voltmeter und Amperemeter bei \SI {100}{\ohm } und \SI {330}{\ohm }}}{4}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Stromkennlinien der berechneten Werte bei \SI {100}{\ohm } und \SI {330}{\ohm }}}{4}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Stromkennlinien der Labormesswerte vom Voltmeter und Amperemeter bei \SI {0}{\ohm } bis \SI {1000}{\ohm }}}{6}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Stromkennlinien der berechneten Werte bei \SI {0}{\ohm } bis \SI {1000}{\ohm }}}{6}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Schematischer Aufbau der Reihen- und Parallelschaltung, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor1}}}{7}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Schematischer Aufbau unbelasteter Spannungsteiler, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor1}}}{10}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Kennlinie vom unbelasteten Spannungsteiler mit den Messwerten}}{11}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Kennlinie vom unbelasteten Spannungsteiler mit den errechneten Werten}}{11}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Schematischer Aufbau belasteter Spannungsteiler, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor1}}}{12}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Kennlinie vom belasteten Spannungsteiler mit den Messwerten}}{13}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Kennlinie vom belasteten Spannungsteiler mit den berechneten Werten}}{14}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Schematischer Aufbau der spannungsrichtigen Messung, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor1}}}{15}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Schematischer Aufbau der stromrichtigen Messung, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor1}}}{17}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Schematischer Aufbau einer Ersatzspannungsquelle, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor1}}}{19}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Widerstandkennlinie der Ersatzspannungsquelle}}{20}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Schematischer Aufbau einer Reihenschaltung von Spannungsquellen, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor1}}}{21}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Schematischer Aufbau einer Parallelschaltung von Spannungsquellen, Bildquelle: Laboranleitung 1 - Gleichstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor1}}}{22}{figure.caption.26}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematischer Aufbau der RC Schaltung, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor2}}}{24}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Zeitlicher Verlauf der Lade- und Entladevorgänge des Kondensators im Vergleich zur Eingangsspannung}}{25}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Zeitlicher Verlauf der Spannung am Widerstand im Vergleich zur Eingangsspannung}}{26}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Schematischer Aufbau der RC Schaltung, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor2}}}{28}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Zeitlicher Verlauf der Phasenverschiebung zwischen Kondensatorspannung und Widerstandsspannung}}{29}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Schematischer Aufbau der RC Schaltung, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor2}}}{30}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Zusammenhang zwischen Blindwiderstand des Kondensators bei verschiedenen Frequenzen}}{31}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Schematischer Aufbau der RC Schaltung, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor2}}}{32}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Zeitlicher Verlauf der Kondensatorspannung, des Kondensatorstromes und der Kondensatorblindleistung}}{33}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Schematischer Aufbau der RL Schaltung, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor2}}}{34}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Zeitlicher Verlauf der Eingangsspannung und der Spulenspannung}}{36}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Zeitlicher Verlauf der Spannung am Widerstand im Vergleich zur Eingangsspannung}}{36}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Schematischer Aufbau der RL Schaltung, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor2}}}{37}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Zeitlicher Verlauf der Phasenverschiebung zwischen Spulenspannung und Widerstandsspannung}}{38}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Schematischer Aufbau von einer Parallelschaltung von Widerstand und Spule, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor2}}}{39}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Zeigerdiagramme der Ströme und Leitwerte}}{41}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Schematischer Aufbau von einer Reihenschaltung von Widerstand und Kondensator, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor2}}}{42}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Zeigerdiagramme der Ströme und Leitwerte}}{44}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Schematischer Aufbau von einer RLC-Schaltung, Bildquelle: Laboranleitung 2 - Wechselstromtechnik \blx@tocontentsinit {0}\cite {saxl_labor2}}}{45}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Zeigerdiagramm der Leistungen}}{47}{figure.caption.48}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

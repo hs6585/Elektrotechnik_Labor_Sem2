@@ -1,0 +1,102 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Gleichstromtechnik}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Wechselstromtechnik}{1}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Gleichstromtechnik}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Ohmsches Gesetz Versuch 1}{2}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Einleitung und Aufgabenstellung}{2}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Versuchsaufbau und Materialien}{2}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Versuchsdurchführung und Methoden}{3}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Ergebnis und Interpretation}{3}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Ohmsches Gesetz Versuch 2}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Einleitung und Aufgabenstellung}{5}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Versuchsaufbau und Materialien}{5}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Versuchsdurchführung und Methoden}{5}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Ergebnis und Interpretation}{5}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Mischen von Reihen- und Parallelschaltungen}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Einleitung und Aufgabenstellung}{7}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Versuchsaufbau und Materialien}{7}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Versuchsdurchführung und Methoden}{7}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Ergebnis und Interpretation}{8}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Unbelasteter Spannungsteiler}{10}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Einleitung und Aufgabenstellung}{10}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Versuchsaufbau und Materialien}{10}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Versuchsdurchführung und Methoden}{10}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Ergebnis und Interpretation}{10}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}Belasteter Spannungsteiler}{12}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Einleitung und Aufgabenstellung}{12}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Versuchsaufbau und Materialien}{12}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Versuchsdurchführung und Methoden}{13}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Ergebnis und Interpretation}{13}{subsection.2.5.4}%
+\contentsline {section}{\numberline {2.6}Spannungsrichtige Messung}{15}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Einleitung und Aufgabenstellung}{15}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Versuchsaufbau und Materialien}{15}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Versuchsdurchführung und Methoden}{15}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Ergebnis und Interpretation}{16}{subsection.2.6.4}%
+\contentsline {section}{\numberline {2.7}Stromrichtige Messung}{17}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Einleitung und Aufgabenstellung}{17}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Versuchsaufbau und Materialien}{17}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Versuchsdurchführung und Methoden}{17}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}Ergebnis und Interpretation}{18}{subsection.2.7.4}%
+\contentsline {section}{\numberline {2.8}Ersatzspannungsquelle}{19}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Einleitung und Aufgabenstellung}{19}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Versuchsaufbau und Materialien}{19}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Versuchsdurchführung und Methoden}{19}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}Ergebnis und Interpretation}{20}{subsection.2.8.4}%
+\contentsline {section}{\numberline {2.9}Reihenschaltung von Spannungsquellen}{21}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}Einleitung und Aufgabenstellung}{21}{subsection.2.9.1}%
+\contentsline {subsection}{\numberline {2.9.2}Versuchsaufbau und Materialien}{21}{subsection.2.9.2}%
+\contentsline {subsection}{\numberline {2.9.3}Versuchsdurchführung und Methoden}{21}{subsection.2.9.3}%
+\contentsline {subsection}{\numberline {2.9.4}Ergebnis und Interpretation}{21}{subsection.2.9.4}%
+\contentsline {section}{\numberline {2.10}Parallelschaltung von Spannungsquellen}{22}{section.2.10}%
+\contentsline {subsection}{\numberline {2.10.1}Einleitung und Aufgabenstellung}{22}{subsection.2.10.1}%
+\contentsline {subsection}{\numberline {2.10.2}Versuchsaufbau und Materialien}{22}{subsection.2.10.2}%
+\contentsline {subsection}{\numberline {2.10.3}Versuchsdurchführung und Methoden}{22}{subsection.2.10.3}%
+\contentsline {subsection}{\numberline {2.10.4}Ergebnis und Interpretation}{23}{subsection.2.10.4}%
+\contentsline {chapter}{\numberline {3}Wechselstromtechnik}{24}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Lade- und Entladevorgang eines Kondensators}{24}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Einleitung und Aufgabenstellung}{24}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Versuchsaufbau und Materialien}{24}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Versuchsdurchführung und Methoden}{25}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Ergebnis und Interpretation}{25}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Phasenverschiebung zwischen Strom\\und Spannung am Kondensator}{28}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Einleitung und Aufgabenstellung}{28}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Versuchsaufbau und Materialien}{28}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Versuchsdurchführung und Methoden}{29}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Ergebnis und Interpretation}{29}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Kapazitiver Blindwiderstand eines Kondensators}{30}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Einleitung und Aufgabenstellung}{30}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Versuchsaufbau und Materialien}{30}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Versuchsdurchführung und Methoden}{30}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Ergebnis und Interpretation}{31}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Blindleistung eines Kondensators}{32}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Einleitung und Aufgabenstellung}{32}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Versuchsaufbau und Materialien}{32}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Versuchsdurchführung und Methoden}{32}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Ergebnis und Interpretation}{33}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Ein- und Ausschaltvorgang an einer Spule}{34}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Einleitung und Aufgabenstellung}{34}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Versuchsaufbau und Materialien}{34}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Versuchsdurchführung und Methoden}{34}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Ergebnis und Interpretation}{35}{subsection.3.5.4}%
+\contentsline {section}{\numberline {3.6}Phasenverschiebung zwischen Strom\\und Spannung an einer Spule}{37}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Einleitung und Aufgabenstellung}{37}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Versuchsaufbau und Materialien}{37}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Versuchsdurchführung und Methoden}{37}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Ergebnis und Interpretation}{38}{subsection.3.6.4}%
+\contentsline {section}{\numberline {3.7}Parallelschaltung von Widerstand und Spule}{39}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Einleitung und Aufgabenstellung}{39}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Versuchsaufbau und Materialien}{39}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Versuchsdurchführung und Methoden}{40}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Ergebnis und Interpretation}{40}{subsection.3.7.4}%
+\contentsline {section}{\numberline {3.8}Reihenschaltung von Widerstand und Kondensator}{42}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Einleitung und Aufgabenstellung}{42}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Versuchsaufbau und Materialien}{42}{subsection.3.8.2}%
+\contentsline {subsection}{\numberline {3.8.3}Versuchsdurchführung und Methoden}{43}{subsection.3.8.3}%
+\contentsline {subsection}{\numberline {3.8.4}Ergebnis und Interpretation}{43}{subsection.3.8.4}%
+\contentsline {section}{\numberline {3.9}Wirk-, Blind- und Scheinleistung}{45}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Einleitung und Aufgabenstellung}{45}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Versuchsaufbau und Materialien}{45}{subsection.3.9.2}%
+\contentsline {subsection}{\numberline {3.9.3}Versuchsdurchführung und Methoden}{46}{subsection.3.9.3}%
+\contentsline {subsection}{\numberline {3.9.4}Ergebnis und Interpretation}{46}{subsection.3.9.4}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
